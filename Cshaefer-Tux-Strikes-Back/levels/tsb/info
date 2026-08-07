@@ -1,0 +1,7 @@
+;SuperTux-Level-Subset
+(supertux-level-subset
+  (title (_ "Tux Strikes Back"))
+  (description "Tux needs to save Antartica from melting.")
+  (contrib-type "community")
+  (levelset #f)
+)

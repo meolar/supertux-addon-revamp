@@ -1,0 +1,9 @@
+(supertux-addoninfo
+  (id "community-2016")
+  (version 1)
+  (type "worldmap")
+  (title "Community Island")
+  (description "Original Community Island Level Pack")
+  (author "SuperTux Community")
+  (license "CC-BY-SA 4.0 International")
+)
