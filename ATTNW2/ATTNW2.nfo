@@ -1,0 +1,7 @@
+(supertux-addoninfo
+  (id "ATTNW2")
+  (version 1)
+  (type "worldmap")
+  (title "Adventure to the New World II")
+  (author "Miks ja Ants")
+  (license "GPL 2+ / CC-by-sa 3.0"))

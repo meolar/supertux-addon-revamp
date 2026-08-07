@@ -1,0 +1,23 @@
+;intro
+(supertux-text
+  (background "arctis.jpg")
+  (music "music/misc/theme.ogg")
+  (text
+"-Adventure to the New World II: Treasure Hunt
+
+
+	It has been a few weeks since Tux returned with Penny from Planet Nolok.
+
+ 
+	When they landed in Antarctica, they saw that their spaceship was badly damaged. Penny wanted Tux to take her to the moon someday, and she begged Tux to fix the spaceship. 
+
+
+	Tux estimated that repairing the spaceship would cost about a million dollars. The only solution, Tux thought, was to go treasure hunting all over the planet and find those million dollars.
+
+
+	And that is where our story begins..
+
+
+
+")
+)

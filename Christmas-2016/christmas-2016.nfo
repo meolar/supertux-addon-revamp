@@ -1,0 +1,9 @@
+(supertux-addoninfo
+  (id "christmas-2016")
+  (version 1)
+  (type "worldmap")
+  (title "Christmas Special")
+  (description "Original Christmas 2016 Level Pack")
+  (author "Carsten Wirtz")
+  (license "GPL 2+ / CC-by-sa 3.0")
+)

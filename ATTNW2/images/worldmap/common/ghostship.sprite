@@ -1,0 +1,23 @@
+(supertux-sprite
+  (action
+    (hitbox 6 41 0 0)
+    (name "default")
+    (fps 5)
+    (images 
+      "ghostship1.png"
+	 "ghostship2.png"
+	 "ghostship3.png"
+      "ghostship4.png"
+	 "ghostship5.png"
+	 "ghostship6.png"
+	 "ghostship7.png"
+	 "ghostship8.png"
+	 "ghostship7.png"
+	 "ghostship6.png"
+      "ghostship5.png"
+	 "ghostship4.png"
+	 "ghostship3.png"
+      "ghostship2.png"
+    )
+  )
+)

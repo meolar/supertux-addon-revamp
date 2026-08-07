@@ -1,0 +1,52 @@
+;extro
+(supertux-text
+  (background "nightsky_top.png")
+  (music "music/misc/credits.ogg")
+  (text"
+	Tux managed to find enough money to repair the spaceship. However, when he returned home to his village, he found no one there. Tux checked every igloo, but without results.
+
+
+	He thought that maybe they had all gone fishing, but no one returned to the village that night. 
+
+
+	In the morning, Tux found a message lying on the floor:
+	
+
+*    You can't find anything here because...
+*    ...there is nothing! I destroyed your 
+*    spaceship and took your friends with me 
+*    to the moon as hostages. Follow me if 
+*    you can, Tux!
+*                                     -Nolok
+	
+
+	This note got Tux very angry. He started brainstorming a plan to save his friends.
+
+
+
+-The story continues in Adventure to the New World III!
+
+
+	----------------------------------------
+
+
+-Adventure to the New World II: Treasure Hunt
+
+	Levels, worldmap, and story created by Miks ja Ants, aka Miksy91
+
+	Levels redesigned and converted by Jonathan 
+	
+	New gray brick tiles created by Jonathan
+
+	Volcano worldmap tiles courtesy of Hume2
+	
+	Boss music contributed by Miks ja Ants, converted to .ogg format by Jonathan
+
+	Ghostship map sprite by landofshadows (LOS) aka Steve Giles @ http://www.xprk.0catch.com, edited and animated by Jonathan
+
+
+
+
+
+-THANKS FOR PLAYING!!")
+)
