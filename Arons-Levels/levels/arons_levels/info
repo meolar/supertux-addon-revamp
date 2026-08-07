@@ -1,0 +1,7 @@
+(supertux-level-subset
+  (title (_ "Aron's levels"))
+  (description (_ "This is a worldmap with 26 levels, four of them are very hard. Designed in v0.6.2"))
+  (levelset #f)
+  (hide-from-contribs #f)
+  (contrib-type "community")
+)

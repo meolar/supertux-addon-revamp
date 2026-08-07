@@ -1,0 +1,8 @@
+(supertux-addoninfo
+  (id "Arons_Levels")
+  (version 1)
+  (type "worldmap")
+  (title "Aron's Levels")
+  (author "Aron")
+  (license "CC-BY-SA 4.0 International")
+  )

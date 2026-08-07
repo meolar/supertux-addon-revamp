@@ -1,0 +1,34 @@
+;extro
+(supertux-text
+  (background "extro.jpg")
+  (music "music/misc/credits.ogg")
+  (text "
+	Tux rushes deep inside the castle and finally finds a prison. Inside he finds Penny. Tux manages to free her without any trouble.
+
+	Once again, Nolok managed to escape, but this time, he wasn't fast enough to take Penny with him.
+
+	Tux and Penny board Tux's stolen spaceship and fly back to Antarctica, happily reunited, at least, for now...
+
+-More adventure awaits in Adventure to the New World II!
+
+
+
+	----------------------------------------
+
+
+-Adventure to the New World
+
+	Levels and story created by Miks ja Ants, aka Miksy91
+
+	Worldmap by Jonathan
+
+	Levels refurbished and updated by Jonathan
+
+	Volcano worldmap tiles and desert tiles courtesy of Hume2
+
+	Rocketship decals contributed by qubodup on opengameart.org, liscensed under CC0 (public domain), redesigned by Jonathan
+
+
+
+-THANKS FOR PLAYING!!")
+)

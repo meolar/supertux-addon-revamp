@@ -1,0 +1,28 @@
+;intro
+(supertux-text
+  (background "arctis.jpg")
+  (music "music/misc/theme.ogg")
+  (text"
+-Adventure to the New World
+
+
+
+	It's been nearly two years since Nolok escaped with Penny.
+
+	One day, while Tux is checking his email, he notices an email from Penny!
+
+*    Tux,
+*    Nolok took me into his spaceship and escaped into space.
+*    We flew through the Sun into a planet called Planet Nolok.
+*    It is a dark and lifeless planet, and I'm being held
+*    prisoner there. You must come save me!
+*                                                      -Penny
+
+	Tux knows that the nearest spacestation is in Dallas.
+
+	That's where Tux decides to go first.
+
+	And that's where the adventure begins.
+
+")
+)

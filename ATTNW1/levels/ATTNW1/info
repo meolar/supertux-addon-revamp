@@ -1,0 +1,7 @@
+(supertux-level-subset
+  (title (_ "Adventure to the New World"))
+  (description (_ ""))
+  (levelset #f)
+  (hide-from-contribs #f)
+  (contrib-type "community")
+)

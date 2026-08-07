@@ -1,0 +1,7 @@
+(supertux-addoninfo
+  (id "ATTNW1")
+  (version 1)
+  (type "worldmap")
+  (title "Adventure to the New World")
+  (author "Miksy91")
+  (license "CC-BY-SA 4.0 International"))
