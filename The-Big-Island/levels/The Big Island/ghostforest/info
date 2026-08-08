@@ -1,0 +1,7 @@
+(supertux-level-subset
+  (title (_ "The Big Island ghost"))
+  (description (_ ""))
+  (levelset #f)
+  (hide-from-contribs #f)
+  (contrib-type "community")
+)
