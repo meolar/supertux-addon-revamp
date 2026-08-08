@@ -1,0 +1,6 @@
+(supertux-level-subset
+  (title (_ "Skitt-land"))
+  (description (_ "After a year of work, I present you a new world! (Created By: Skittles, A.K.A Mr. Gaming)"))
+  (levelset #f)
+  (hide-from-contribs #f)
+)

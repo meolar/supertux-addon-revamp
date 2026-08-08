@@ -1,0 +1,8 @@
+;SuperTux-Level-Subset
+(supertux-level-subset
+  (title (_ "Serano's Islands - Remastered"))
+  (description "")
+  (levelset #f)
+  (hide-from-contribs #f)
+  (contrib-type "community")
+)
