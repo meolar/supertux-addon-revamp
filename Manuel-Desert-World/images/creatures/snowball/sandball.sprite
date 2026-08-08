@@ -1,0 +1,30 @@
+(supertux-sprite
+  (action
+    (name "left")
+    (hitbox 3 4 32 32)
+    (images "sandball0.png"
+            "sandball1.png"
+            "sandball2.png"
+            "sandball1.png")
+  )
+  (action
+    (name "default")
+    (hitbox 3 4 32 32)
+    (mirror-action "left")
+  )
+  (action
+    (name "right")
+    (hitbox 3 4 32 32)
+    (mirror-action "left")
+  )
+  (action
+    (name "squished-left")
+    (hitbox 1 -19 31.8 31.8)
+    (images "sandball_squished.png")
+  )
+  (action
+    (name "squished-right")
+    (hitbox 1 -19 31.8 31.8)
+    (mirror-action "squished-left")
+  )
+)
