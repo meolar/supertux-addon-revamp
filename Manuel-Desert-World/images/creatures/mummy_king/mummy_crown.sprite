@@ -1,0 +1,15 @@
+  (supertux-sprite
+  (action
+    (name "left")
+    (hitbox 21 25 47 55)
+    (images 
+      "crown_l.png"
+      )
+    )
+
+  (action
+    (name "right")
+    (hitbox 17 25 43 55)
+    (mirror-action "left")
+  )
+ )

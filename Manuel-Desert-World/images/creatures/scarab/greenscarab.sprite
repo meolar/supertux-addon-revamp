@@ -1,0 +1,35 @@
+(supertux-sprite
+  (action
+    (name "left")
+    (hitbox 0 0 48 48)
+    (images "greenscarab0.png"
+     "greenscarab1.png"
+     "greenscarab0.png"
+     "greenscarab2.png")
+  )
+  (action
+    (name "right")
+    (hitbox 0 0 48 48)
+    (mirror-action "left")
+  )
+  (action
+    (name "squished-left")
+    (hitbox 1 -19 31.8 31.8)
+    (images "greenscarabx.png")
+  )
+  (action
+    (name "squished-right")
+    (hitbox 1 -19 31.8 31.8)
+    (mirror-action "squished-left")
+  )
+  (action
+    (name "collision-left")
+    (hitbox -24 1 12.8 31.8)
+    (images "greenscarabc.png")
+  )
+  (action
+    (name "collision-right")
+    (hitbox -24 1 12.8 31.8)
+    (mirror-action "collision-left")
+  )
+)

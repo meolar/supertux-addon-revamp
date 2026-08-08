@@ -1,0 +1,14 @@
+(supertux-sprite
+  (action
+    (name "normal")
+    (hitbox 0 7 0 7)
+    (images "crocobite_doing.png")
+  )
+  (action
+    (name "swinging")
+    (images "crocobite_doing.png"
+            "crocobite_doing1.png"
+            "crocobite_doing2.png"
+            "crocobite_doing3.png")
+  )
+)

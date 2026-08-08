@@ -1,0 +1,28 @@
+(supertux-sprite
+	(action
+	  (name "left")
+	  (hitbox 0 0 34 18)
+	  (images "armor0.png"
+		  "armor1.png"
+		  "armor2.png"
+		  "armor1.png"))
+
+	(action (name "right")
+                (hitbox 0 0 34 18)
+		(mirror-action "left"))
+
+	(action (name "falling-left")
+		(hitbox 0 0 34 18)
+		(images "armorx.png"))
+
+	(action (name "falling-right")
+		(hitbox 0 0 34 18)
+		(mirror-action "falling-left"))
+
+	(action (name "flat-left")
+		(hitbox 0 0 34 18)
+		(images "armorx.png"))
+
+	(action (name "flat-right")
+		(hitbox 0 0 34 18)
+		(mirror-action "falling-left")))

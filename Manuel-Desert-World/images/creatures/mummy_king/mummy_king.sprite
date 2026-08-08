@@ -1,0 +1,122 @@
+ (supertux-sprite
+  (action
+    (name "default")
+    (hitbox 20 8 44 92)
+    (images 
+      "stand_l.png"
+      )
+    )
+  (action
+    (name "stand_l")
+    (hitbox 20 8 44 92)
+    (images 
+      "stand_r.png"
+      )
+    )
+  (action
+    (name "stand_r")
+    (hitbox 20 8 44 92)
+    (images 
+      "stand_r.png"
+      )
+    )
+  (action
+    (name "groar_l")
+    (hitbox 20 8 44 92)
+    (images 
+      "groar_l0.png"
+      "groar_l1.png"
+      "groar_l1.png"
+      "groar_l1.png"
+      "groar_l1.png"
+      "groar_l1.png"
+      "groar_l1.png"
+      "groar_l1.png"
+      "groar_l1.png"
+      "groar_l1.png"
+      "groar_l1.png"
+      "groar_l0.png"
+      )
+    )
+  (action
+    (name "groar_r")
+    (hitbox 20 8 44 92)
+    (images 
+      "groar_r0.png"
+      "groar_r1.png"
+      "groar_r1.png"
+      "groar_r1.png"
+      "groar_r1.png"
+      "groar_r1.png"
+      "groar_r1.png"
+      "groar_r1.png"
+      "groar_r1.png"
+      "groar_r1.png"
+      "groar_r1.png"
+      "groar_r0.png"
+      )
+    )
+  (action
+    (name "move_l")
+    (hitbox 20 8 44 92)
+    (images 
+      "move_l0.png"
+      "move_l1.png"
+      )
+    )
+  (action
+    (name "move_r")
+    (hitbox 20 8 44 92)
+    (images 
+      "move_r0.png"
+      "move_r1.png"
+      )
+    )
+  (action
+    (name "left")
+    (hitbox 20 8 44 92)
+    (fps 5)
+    (images 
+      "walk_l0.png"
+      "walk_l1.png"
+      "walk_l0.png"
+      "walk_l2.png"
+      )
+    )
+  (action
+    (name "right")
+    (hitbox 20 8 44 92)
+    (fps 5)
+    (images 
+      "walk_r0.png"
+      "walk_r1.png"
+      "walk_r0.png"
+      "walk_r2.png"
+      )
+    )
+  (action
+    (name "work_l")
+    (hitbox 20 8 44 92)
+    (images 
+      "move_l0.png"
+      "move_l1.png"
+      "walk_l0.png"
+      "move_l3.png"
+      "move_l3.png"
+      "move_l3.png"
+      "walk_l0.png"
+      "move_l1.png"
+      "move_l0.png"
+      "move_l0.png"
+      "move_l0.png"
+      "move_l0.png"
+      "move_l0.png"
+      "move_l0.png"
+      )
+    )
+  (action
+    (name "work_r")
+    (hitbox 20 8 44 92)
+    (mirror-action "work_l")
+  )
+)

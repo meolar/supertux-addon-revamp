@@ -1,0 +1,42 @@
+(supertux-sprite
+ (action
+  (name "left")
+  (hitbox 0 0 320 320)
+  (images "goobomboss.png"))
+
+ (action
+  (name "right")
+  (hitbox 0 0 320 320)
+  (mirror-action "left"))
+
+ (action
+  (name "ticking-left")
+  (fps 10.0)
+  (hitbox 0 0 320 320)
+  (images "goobomboss.png"
+          "goobomboss2.png"
+          "goobomboss2.png"
+          "goobomboss.png"
+          "goobomboss.png"
+          "goobomboss2.png"
+          "goobomboss3.png"
+          "goobomboss3.png"
+          "goobomboss2.png"
+          "goobomboss.png"
+          "goobomboss.png"
+          "goobomboss2.png"
+          "goobomboss3.png"
+          "goobomboss4.png"
+          "goobomboss4.png"
+          "goobomboss3.png"
+          "goobomboss2.png"
+          ))
+
+ 
+ (action
+  (name "ticking-right")
+  (fps 10.0)
+  (hitbox 0 0 320 320)
+  (mirror-action "ticking-left"))
+ 
+)

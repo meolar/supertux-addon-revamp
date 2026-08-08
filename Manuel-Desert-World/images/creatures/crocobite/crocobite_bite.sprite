@@ -1,0 +1,7 @@
+(supertux-sprite
+  (action
+    (name "normal")
+    (hitbox 0 2 64 50)
+    (images "crocobite_bite.png")
+  )
+)

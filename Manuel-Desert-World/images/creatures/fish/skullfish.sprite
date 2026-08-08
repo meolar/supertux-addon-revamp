@@ -1,0 +1,40 @@
+(supertux-sprite
+ (action
+  (name "normal")
+  (hitbox 0 0 35 47)
+  (images "skully0.png"
+          "skully1.png"))
+
+ (action
+  (name "down")
+  (hitbox 0 0 35 47)
+  (images "skully_down.png"))
+
+ (action
+  (name "iced")
+  (hitbox 0 0 35 47)
+  (images "skully0.png"))
+
+ (action
+  (name "iced-down")
+  (hitbox 0 0 35 47)
+  (images "skully_down.png"))
+
+ (action
+  (name "burning-left")
+  (fps 10)
+  (hitbox 0 0 35 47)
+  (images "skully_burn0.png"
+          "skully_burn1.png"
+          "skully_burn2.png"
+          "skully_burn3.png"
+          "skully_burn4.png"
+          "skully_burn5.png"
+          "skully_burn6.png"
+          "skully_burn7.png"
+          "skully_burn8.png"
+          "skully_burn9.png"
+          "skully_burn10.png"
+          "skully_burn11.png"))
+)
+
