@@ -1,0 +1,17 @@
+(supertux-sprite
+  (action
+    (name "default")
+    (fps 8)
+    (images 
+      "flyingcrusher7.png"
+      "flyingcrusher6.png"
+      "flyingcrusher5.png"
+      "flyingcrusher4.png"
+      "flyingcrusher3.png"
+      "flyingcrusher2.png"
+      "flyingcrusher1.png"
+      "flyingcrusher0.png"
+      )
+    )
+  )
+

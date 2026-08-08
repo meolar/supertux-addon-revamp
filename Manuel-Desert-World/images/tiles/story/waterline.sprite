@@ -1,0 +1,11 @@
+(supertux-sprite
+  (action
+    (name "default")
+    (images 
+      "waterline0.png"
+      "waterline1.png"
+      "waterline2.png"
+      )
+    )
+  )
+

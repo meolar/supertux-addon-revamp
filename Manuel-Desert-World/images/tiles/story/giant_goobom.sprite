@@ -1,0 +1,51 @@
+(supertux-sprite
+ (action
+  (name "default")
+  (fps 10.0)
+  (hitbox 0 0 168 160)
+  (images "exploding0.png"
+          "exploding1.png"
+          "exploding2.png"
+          "exploding3.png"
+          "exploding4.png"
+          "exploding3.png"
+          "exploding2.png"
+          "exploding1.png"
+          "exploding0.png"
+          "exploding1.png"
+          "exploding2.png"
+          "exploding3.png"
+          "exploding4.png"
+          "exploding3.png"
+          "exploding2.png"
+          "exploding1.png"
+          "exploding0.png"
+          "exploding2.png"
+          "exploding4.png"
+          "exploding2.png"
+          "exploding0.png"
+          "exploding2.png"
+          "exploding4.png"
+          "exploding2.png"
+          "exploding0.png"
+          "exploding4.png"
+          "exploding0.png"
+          "exploding4.png"
+          ))
+
+ 
+ (action
+  (name "right")
+  (fps 10.0)
+  (hitbox 1 1 168 160)
+  (mirror-action "default"))
+  
+  (action
+  (name "disappear")
+  (fps 1.0)
+  (hitbox 0 0 168 160)
+  (images "exploding_nil.png"
+  ))
+ 
+)
+
