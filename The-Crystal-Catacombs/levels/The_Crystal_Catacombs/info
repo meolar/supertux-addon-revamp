@@ -1,0 +1,7 @@
+(supertux-level-subset
+  (title (_ "The Crystal Catacombs"))
+  (description (_ "In a world where Penny has deceased, Tux tasks himself with saving her Soul."))
+  (levelset #f)
+  (hide-from-contribs #f)
+  (contrib-type "community")
+)
