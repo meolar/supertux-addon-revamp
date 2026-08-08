@@ -1,0 +1,9 @@
+(supertux-addoninfo
+  (id "halloween-2014")
+  (version 1)
+  (type "worldmap")
+  (title "Halloween Island")
+  (description "Original Halloween Island Level Pack")
+  (author "Ingo Ruhnke & LMH")
+  (license "CC-BY-SA 4.0 International / GPL 2+ / CC-by-sa 3.0")
+)
