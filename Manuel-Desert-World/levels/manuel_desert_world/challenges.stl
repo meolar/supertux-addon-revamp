@@ -1,0 +1,1556 @@
+(supertux-level
+  (version 2)
+  (name (_ "Further Challenges"))
+  (author "manuel")
+  (license "GPL 2+ / CC-by-sa 3.0")
+  (target-time 23)
+  (sector
+    (name "main")
+    (ambient-light 1 1 1)
+    (background
+      (speed 0.5)
+      (image-top "images/background/cloudlesssky.png")
+      (image "images/background/kingsvalley.png")
+    )
+    (bonusblock
+      (script "found_block(\"challenges\")")
+      (sprite "images/objects/bonus_block/secretblock.sprite")
+      (x 1792)
+      (y 608)
+    )
+    (camera
+      (mode "normal")
+    )
+    (crystallo
+      (radius 32)
+      (sprite "")
+      (x 4064)
+      (y 935)
+    )
+    (decal
+      (x 2713)
+      (y 1000)
+      (layer 76)
+      (sprite "images/creatures/snowjumpy/left-middle.png")
+    )
+    (decal
+      (x 2909)
+      (y 1038)
+      (layer 76)
+      (sprite "images/creatures/scarab/armorx.png")
+    )
+    (decal
+      (x 4064)
+      (y 704)
+      (layer 0)
+      (sprite "images/creatures/mr_bomb/goobomboss.png")
+    )
+    (decal
+      (x 4416)
+      (y 1016)
+      (layer -101)
+      (sprite "images/creatures/crocobite/crocobite_doing.png")
+    )
+    (decal
+      (x 5144)
+      (y 848)
+      (sprite "images/creatures/nolok/walk-0.png")
+    )
+    (flyingsnowball
+      (x 5536)
+      (y 736)
+    )
+    (flyingsnowball
+      (x 5632)
+      (y 704)
+    )
+    (flyingsnowball
+      (x 5728)
+      (y 672)
+    )
+    (icecrusher
+      (sprite "images/creatures/icecrusher/sandcrusher.sprite")
+      (x 3472)
+      (y 960)
+    )
+    (infoblock
+      (message (_ "#Did you finish the worldmap and now ask yourself what to do next?"))
+      (x 224)
+      (y 768)
+    )
+    (infoblock
+      (message (_ "#Here are some suggestions for you."))
+      (x 384)
+      (y 768)
+    )
+    (infoblock
+      (message (_ "#First of all, you can solve all levels perfectly. This means, you can find every secret area and - if you want - kill all enemys and find every coin."))
+      (x 1040)
+      (y 736)
+    )
+    (infoblock
+      (message (_ "-Standard Challenges
+#For every level"))
+      (x 768)
+      (y 736)
+    )
+    (infoblock
+      (message (_ "#Try to finish every level in the given target time. This may need some training."))
+      (x 1408)
+      (y 736)
+    )
+    (infoblock
+      (message (_ "#In every NORMAL level (e.g. no boss/story levels) there is a secret bonus block looking exactly like this."))
+      (x 1792)
+      (y 736)
+    )
+    (infoblock
+      (message (_ "-Challenges for different levels
+#The more stars the more difficult. You get a star for a completed challenge and a tuxdoll when you found the secret coin box."))
+      (x 2112)
+      (y 800)
+    )
+    (infoblock
+      (message (_ "-The Hot Continent
+#Finish the level in under 0:43:00
+#***"))
+      (x 2336)
+      (y 832)
+    )
+    (infoblock
+      (message (_ "-Southern Dunes
+#Finish the level in under 0:55:00
+#****"))
+      (x 2432)
+      (y 832)
+    )
+    (infoblock
+      (message (_ "-Tumbleweed Trouble
+#Finish the level in under 0:49:00
+#*****"))
+      (x 2528)
+      (y 832)
+    )
+    (infoblock
+      (message (_ "-Chaos Canyon
+#Collect all coins.
+#****"))
+      (x 2624)
+      (y 832)
+    )
+    (infoblock
+      (message (_ "-More Holes
+#Defeat all Jumpys.
+#*"))
+      (x 2720)
+      (y 832)
+    )
+    (infoblock
+      (message (_ "-Underground Paths
+#Neither kill a badguy nor collect any coins.
+#****"))
+      (x 2816)
+      (y 832)
+    )
+    (infoblock
+      (message (_ "-Stalactite and Light
+#Don't step on any of these blocks.
+#*****"))
+      (x 3008)
+      (y 832)
+    )
+    (infoblock
+      (message (_ "-Build Your Way
+#Kill all Armored Scarabs
+#*"))
+      (x 2912)
+      (y 832)
+    )
+    (infoblock
+      (message (_ "-Unsolid Path
+#Shout in every of the 4 pipe holes with the ACTION KEY.
+#**"))
+      (x 3104)
+      (y 832)
+    )
+    (infoblock
+      (message (_ "-A filthy Plan
+#Reach the Mummys.
+#You already did that, I guess."))
+      (x 3200)
+      (y 832)
+    )
+    (infoblock
+      (message (_ "-Back to the Surface
+#Reach the double-flowered cactus.
+#*"))
+      (x 3296)
+      (y 832)
+    )
+    (infoblock
+      (message (_ "-Cactus!
+#Finish the level in under 0:57:00
+#*****"))
+      (x 3392)
+      (y 832)
+    )
+    (infoblock
+      (message (_ "-The Remains of the Pyramids
+#Don't let a single coconut fall down
+#***"))
+      (x 3776)
+      (y 832)
+    )
+    (infoblock
+      (message (_ "-Dangerous Woodblocks
+#Break all Woodcrushers
+#***"))
+      (x 3488)
+      (y 832)
+    )
+    (infoblock
+      (message (_ "-The Entrance
+#Don't kill any enemy outside of the pyramid.
+#*"))
+      (x 3584)
+      (y 832)
+    )
+    (infoblock
+      (message (_ "-Further Challenges
+#Finish the level without landing on the sand once.
+#*"))
+      (x 5216)
+      (y 832)
+    )
+    (infoblock
+      (message (_ "-Journey to the Explosives
+#Collect three Tux dolls.
+#***"))
+      (x 3872)
+      (y 832)
+    )
+    (infoblock
+      (message (_ "-The Gate to the Goobom Village
+#Change all the signs by using the ACTION KEY.
+#*"))
+      (x 3968)
+      (y 832)
+    )
+    (infoblock
+      (message (_ "-Hill Village
+#Reach the Tux Statue.
+#*****"))
+      (x 4064)
+      (y 832)
+    )
+    (infoblock
+      (message (_ "-The Goobom King
+#Defeat the second boss.
+#I hope you already did."))
+      (x 4160)
+      (y 832)
+    )
+    (infoblock
+      (message (_ "-Moist Ground
+#Don't collect any coins.
+#**"))
+      (x 4256)
+      (y 832)
+    )
+    (infoblock
+      (message (_ "-Sandfall Grotto
+#Reach the secret PENNY-Heart.
+#*"))
+      (x 4352)
+      (y 832)
+    )
+    (infoblock
+      (message (_ "-The longest River of the World
+#Jump on every Crocobite exactly three times.
+#**"))
+      (x 4448)
+      (y 832)
+    )
+    (infoblock
+      (message (_ "-Garden of Secrets
+#Kill every badguy.
+#****"))
+      (x 4544)
+      (y 832)
+    )
+    (infoblock
+      (message (_ "-House of Rooms
+#Collect everything in the invisible area.
+#*"))
+      (x 4640)
+      (y 832)
+    )
+    (infoblock
+      (message (_ "-The Pyramids Entrance Puzzle
+#Complete the second puzzle but only switch twice.
+#**"))
+      (x 4736)
+      (y 832)
+    )
+    (infoblock
+      (message (_ "-Inside the Factory
+#Collect the last eight coins.
+#**"))
+      (x 4832)
+      (y 832)
+    )
+    (infoblock
+      (message (_ "-Assembly-Line Work
+#Activate all bonus areas.
+#****"))
+      (x 4928)
+      (y 832)
+    )
+    (infoblock
+      (message (_ "-Light and Lava
+#Kill all three LiveFires.
+#****"))
+      (x 5024)
+      (y 832)
+    )
+    (infoblock
+      (message (_ "-Fighting Nolok!
+#Defeat Nolok.
+#You already did if you didn't cheat..."))
+      (x 5120)
+      (y 832)
+    )
+    (infoblock
+      (message (_ "#It's no secret anymore that there are some secret levels. There are some challenges for them as well."))
+      (x 5440)
+      (y 832)
+    )
+    (infoblock
+      (message (_ "-The Drill
+#Kill all enemies and collect your price.
+#*****"))
+      (x 5536)
+      (y 832)
+    )
+    (infoblock
+      (message (_ "-The Secret Bonus Room
+#Finish the level without jumping.
+#*"))
+      (x 5632)
+      (y 832)
+    )
+    (infoblock
+      (message (_ "-Flameburned
+#Finish all difficult challenges.
+#****"))
+      (x 5728)
+      (y 832)
+    )
+    (infoblock
+      (message (_ "-Escape!
+#Jump three times in a row into the first lava pond.
+#*"))
+      (x 3680)
+      (y 832)
+    )
+    (infoblock
+      (message (_ "-Press ACTION at the InfoBlock
+#Finish the supersecret level.
+#***"))
+      (x 5824)
+      (y 832)
+    )
+    (livefire_dormant
+      (x 5026)
+      (y 804)
+    )
+    (smartball
+      (sprite "images/creatures/snowball/smart_sandball.sprite")
+      (x 963)
+      (y 836)
+    )
+    (powerup
+      (sprite "images/powerups/iceflower/iceflower.sprite")
+      (x 4928)
+      (y -64)
+    )
+    (powerup
+      (sprite "images/powerups/fireflower/fireflower.sprite")
+      (x 5728)
+      (y 928)
+    )
+    (scriptedobject
+      (name "iflower")
+      (visible #t)
+      (physic-enabled #f)
+      (solid #t)
+      (sprite "images/objects/platforms/big.sprite")
+      (x 4928)
+      (y -32)
+    )
+    (scriptedobject
+      (name "object01")
+      (layer 75)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/tiles/story/star.sprite")
+      (x 2336)
+      (y 832)
+    )
+    (scriptedobject
+      (name "object02")
+      (layer 75)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/tiles/story/star.sprite")
+      (x 2432)
+      (y 832)
+    )
+    (scriptedobject
+      (name "object03")
+      (layer 75)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/tiles/story/star.sprite")
+      (x 2528)
+      (y 832)
+    )
+    (scriptedobject
+      (name "object04")
+      (layer 75)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/tiles/story/star.sprite")
+      (x 2624)
+      (y 832)
+    )
+    (scriptedobject
+      (name "object05")
+      (layer 75)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/tiles/story/star.sprite")
+      (x 2720)
+      (y 832)
+    )
+    (scriptedobject
+      (name "object06")
+      (layer 75)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/tiles/story/star.sprite")
+      (x 2816)
+      (y 832)
+    )
+    (scriptedobject
+      (name "object07")
+      (layer 75)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/tiles/story/star.sprite")
+      (x 2912)
+      (y 832)
+    )
+    (scriptedobject
+      (name "object08")
+      (layer 75)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/tiles/story/star.sprite")
+      (x 3008)
+      (y 832)
+    )
+    (scriptedobject
+      (name "object09")
+      (layer 75)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/tiles/story/star.sprite")
+      (x 3104)
+      (y 832)
+    )
+    (scriptedobject
+      (name "object10")
+      (layer 75)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/tiles/story/star.sprite")
+      (x 3200)
+      (y 832)
+    )
+    (scriptedobject
+      (name "object11")
+      (layer 75)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/tiles/story/star.sprite")
+      (x 3296)
+      (y 832)
+    )
+    (scriptedobject
+      (name "object12")
+      (layer 75)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/tiles/story/star.sprite")
+      (x 3392)
+      (y 832)
+    )
+    (scriptedobject
+      (name "object13")
+      (layer 75)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/tiles/story/star.sprite")
+      (x 3488)
+      (y 832)
+    )
+    (scriptedobject
+      (name "object14")
+      (layer 75)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/tiles/story/star.sprite")
+      (x 3584)
+      (y 832)
+    )
+    (scriptedobject
+      (name "object15")
+      (layer 75)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/tiles/story/star.sprite")
+      (x 3680)
+      (y 832)
+    )
+    (scriptedobject
+      (name "object16")
+      (layer 75)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/tiles/story/star.sprite")
+      (x 3776)
+      (y 832)
+    )
+    (scriptedobject
+      (name "object17")
+      (layer 75)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/tiles/story/star.sprite")
+      (x 3872)
+      (y 832)
+    )
+    (scriptedobject
+      (name "object19")
+      (layer 75)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/tiles/story/star.sprite")
+      (x 4064)
+      (y 832)
+    )
+    (scriptedobject
+      (name "object18")
+      (layer 75)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/tiles/story/star.sprite")
+      (x 3968)
+      (y 832)
+    )
+    (scriptedobject
+      (name "object20")
+      (layer 75)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/tiles/story/star.sprite")
+      (x 4160)
+      (y 832)
+    )
+    (scriptedobject
+      (name "object21")
+      (layer 75)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/tiles/story/star.sprite")
+      (x 4256)
+      (y 832)
+    )
+    (scriptedobject
+      (name "object22")
+      (layer 75)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/tiles/story/star.sprite")
+      (x 4352)
+      (y 832)
+    )
+    (scriptedobject
+      (name "object23")
+      (layer 75)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/tiles/story/star.sprite")
+      (x 4448)
+      (y 832)
+    )
+    (scriptedobject
+      (name "object24")
+      (layer 75)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/tiles/story/star.sprite")
+      (x 4544)
+      (y 832)
+    )
+    (scriptedobject
+      (name "object25")
+      (layer 75)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/tiles/story/star.sprite")
+      (x 4640)
+      (y 832)
+    )
+    (scriptedobject
+      (name "object26")
+      (layer 75)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/tiles/story/star.sprite")
+      (x 4736)
+      (y 832)
+    )
+    (scriptedobject
+      (name "object27")
+      (layer 75)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/tiles/story/star.sprite")
+      (x 4832)
+      (y 832)
+    )
+    (scriptedobject
+      (name "object28")
+      (layer 75)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/tiles/story/star.sprite")
+      (x 4928)
+      (y 832)
+    )
+    (scriptedobject
+      (name "object29")
+      (layer 75)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/tiles/story/star.sprite")
+      (x 5024)
+      (y 832)
+    )
+    (scriptedobject
+      (name "object30")
+      (layer 75)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/tiles/story/star.sprite")
+      (x 5120)
+      (y 832)
+    )
+    (scriptedobject
+      (name "object31")
+      (layer 75)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/tiles/story/star.sprite")
+      (x 5216)
+      (y 832)
+    )
+    (scriptedobject
+      (name "object32")
+      (layer 75)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/tiles/story/star.sprite")
+      (x 5536)
+      (y 832)
+    )
+    (scriptedobject
+      (name "object33")
+      (layer 75)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/tiles/story/star.sprite")
+      (x 5632)
+      (y 832)
+    )
+    (scriptedobject
+      (name "object34")
+      (layer 75)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/tiles/story/star.sprite")
+      (x 5728)
+      (y 832)
+    )
+    (scriptedobject
+      (name "mummy1")
+      (visible #t)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/creatures/mummy_king/mummy_king.sprite")
+      (x 3220)
+      (y 872)
+    )
+    (scriptedobject
+      (name "mummy1")
+      (visible #t)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/creatures/mummy_king/mummy_crown.sprite")
+      (x 3221)
+      (y 857)
+    )
+    (scriptedobject
+      (name "object101")
+      (layer 80)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/powerups/1up/1up.sprite")
+      (x 2336)
+      (y 800)
+    )
+    (scriptedobject
+      (name "object102")
+      (layer 80)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/powerups/1up/1up.sprite")
+      (x 2432)
+      (y 800)
+    )
+    (scriptedobject
+      (name "object103")
+      (layer 80)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/powerups/1up/1up.sprite")
+      (x 2528)
+      (y 800)
+    )
+    (scriptedobject
+      (name "object104")
+      (layer 80)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/powerups/1up/1up.sprite")
+      (x 2624)
+      (y 800)
+    )
+    (scriptedobject
+      (name "object105")
+      (layer 80)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/powerups/1up/1up.sprite")
+      (x 2720)
+      (y 800)
+    )
+    (scriptedobject
+      (name "object106")
+      (layer 80)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/powerups/1up/1up.sprite")
+      (x 2816)
+      (y 800)
+    )
+    (scriptedobject
+      (name "object107")
+      (layer 80)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/powerups/1up/1up.sprite")
+      (x 2912)
+      (y 800)
+    )
+    (scriptedobject
+      (name "object108")
+      (layer 80)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/powerups/1up/1up.sprite")
+      (x 3008)
+      (y 800)
+    )
+    (scriptedobject
+      (name "object109")
+      (layer 80)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/powerups/1up/1up.sprite")
+      (x 3104)
+      (y 800)
+    )
+    (scriptedobject
+      (name "object111")
+      (layer 80)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/powerups/1up/1up.sprite")
+      (x 3296)
+      (y 800)
+    )
+    (scriptedobject
+      (name "object112")
+      (layer 80)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/powerups/1up/1up.sprite")
+      (x 3392)
+      (y 800)
+    )
+    (scriptedobject
+      (name "object113")
+      (layer 80)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/powerups/1up/1up.sprite")
+      (x 3488)
+      (y 800)
+    )
+    (scriptedobject
+      (name "object114")
+      (layer 80)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/powerups/1up/1up.sprite")
+      (x 3584)
+      (y 800)
+    )
+    (scriptedobject
+      (name "object115")
+      (layer 80)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/powerups/1up/1up.sprite")
+      (x 3680)
+      (y 800)
+    )
+    (scriptedobject
+      (name "object116")
+      (layer 80)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/powerups/1up/1up.sprite")
+      (x 3776)
+      (y 800)
+    )
+    (scriptedobject
+      (name "object117")
+      (layer 80)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/powerups/1up/1up.sprite")
+      (x 3872)
+      (y 800)
+    )
+    (scriptedobject
+      (name "object118")
+      (layer 80)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/powerups/1up/1up.sprite")
+      (x 3968)
+      (y 800)
+    )
+    (scriptedobject
+      (name "object119")
+      (layer 80)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/powerups/1up/1up.sprite")
+      (x 4064)
+      (y 800)
+    )
+    (scriptedobject
+      (name "object121")
+      (layer 80)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/powerups/1up/1up.sprite")
+      (x 4256)
+      (y 800)
+    )
+    (scriptedobject
+      (name "object122")
+      (layer 80)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/powerups/1up/1up.sprite")
+      (x 4352)
+      (y 800)
+    )
+    (scriptedobject
+      (name "object123")
+      (layer 80)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/powerups/1up/1up.sprite")
+      (x 4448)
+      (y 800)
+    )
+    (scriptedobject
+      (name "object124")
+      (layer 80)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/powerups/1up/1up.sprite")
+      (x 4544)
+      (y 800)
+    )
+    (scriptedobject
+      (name "object125")
+      (layer 80)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/powerups/1up/1up.sprite")
+      (x 4640)
+      (y 800)
+    )
+    (scriptedobject
+      (name "object126")
+      (layer 80)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/powerups/1up/1up.sprite")
+      (x 4736)
+      (y 800)
+    )
+    (scriptedobject
+      (name "object127")
+      (layer 80)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/powerups/1up/1up.sprite")
+      (x 4832)
+      (y 800)
+    )
+    (scriptedobject
+      (name "object128")
+      (layer 80)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/powerups/1up/1up.sprite")
+      (x 4928)
+      (y 800)
+    )
+    (scriptedobject
+      (name "object129")
+      (layer 80)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/powerups/1up/1up.sprite")
+      (x 5024)
+      (y 800)
+    )
+    (scriptedobject
+      (name "object131")
+      (layer 80)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/powerups/1up/1up.sprite")
+      (x 5216)
+      (y 800)
+    )
+    (scriptedobject
+      (name "object35")
+      (layer 75)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/tiles/story/star.sprite")
+      (x 5824)
+      (y 832)
+    )
+    (scriptedobject
+      (name "object135")
+      (layer 80)
+      (visible #f)
+      (physic-enabled #f)
+      (solid #f)
+      (sprite "images/powerups/1up/1up.sprite")
+      (x 5824)
+      (y 800)
+    )
+    (scripttrigger
+      (script "Sign01.fade(1,0.25)")
+      (button #t)
+      (width 60)
+      (height 60)
+      (x 3584)
+      (y 896)
+    )
+    (scripttrigger
+      (script "Sign02.fade(1,0.25)")
+      (button #t)
+      (width 60)
+      (height 60)
+      (x 3968)
+      (y 896)
+    )
+    (scripttrigger
+      (script "iflower.set_solid(false)")
+      (button #f)
+      (width 32)
+      (height 8)
+      (x 4928)
+      (y 864)
+    )
+    (scripttrigger
+      (script "chal <- true")
+      (button #f)
+      (width 604)
+      (height 32)
+      (x 0)
+      (y 870)
+    )
+    (scripttrigger
+      (script "chal <- true")
+      (button #f)
+      (width 1212)
+      (height 32)
+      (x 704)
+      (y 832)
+    )
+    (scripttrigger
+      (script "chal <- true")
+      (button #f)
+      (width 764)
+      (height 32)
+      (x 2208)
+      (y 928)
+    )
+    (scripttrigger
+      (script "chal <- true")
+      (button #f)
+      (width 188)
+      (height 32)
+      (x 2048)
+      (y 896)
+    )
+    (scripttrigger
+      (script "chal <- true")
+      (button #f)
+      (width 380)
+      (height 12)
+      (x 3072)
+      (y 948)
+    )
+    (scripttrigger
+      (script "chal <- true")
+      (button #f)
+      (width 2108)
+      (height 12)
+      (x 3552)
+      (y 948)
+    )
+    (scripttrigger
+      (script "if(!(\"chal\" in this)){
+got_achievement(\"challenges\")
+}")
+      (button #f)
+      (width 32)
+      (height 732)
+      (x 5924)
+      (y 224)
+    )
+    (scripttrigger
+      (script "chal <- true")
+      (button #f)
+      (width 220)
+      (height 12)
+      (x 5696)
+      (y 948)
+    )
+    (scripttrigger
+      (script "if(!(\"update\" in this)){
+Tux.deactivate()
+if(state.desert_achievements.hotcontinent){
+object01.set_visible(true)
+}
+if(state.secret_blocks.hotcontinent){
+object101.set_visible(true)
+}
+if(state.desert_achievements.southerndunes){
+object02.set_visible(true)
+}
+if(state.secret_blocks.southerndunes){
+object102.set_visible(true)
+}
+if(state.desert_achievements.tumbleweed){
+object03.set_visible(true)
+}
+if(state.secret_blocks.tumbleweed){
+object103.set_visible(true)
+}
+if(state.desert_achievements.chaoscanyon){
+object04.set_visible(true)
+}
+if(state.secret_blocks.chaoscanyon){
+object104.set_visible(true)
+}
+if(state.desert_achievements.moreholes){
+object05.set_visible(true)
+}
+if(state.secret_blocks.moreholes){
+object105.set_visible(true)
+}
+if(state.desert_achievements.underpaths){
+object06.set_visible(true)
+}
+if(state.secret_blocks.underpaths){
+object106.set_visible(true)
+}
+if(state.desert_achievements.buildway){
+object07.set_visible(true)
+}
+if(state.secret_blocks.buildway){
+object107.set_visible(true)
+}
+if(state.desert_achievements.stalactite){
+object08.set_visible(true)
+}
+if(state.secret_blocks.stalactite){
+object108.set_visible(true)
+}
+if(state.desert_achievements.unsolidpath){
+object09.set_visible(true)
+}
+if(state.secret_blocks.unsolidpath){
+object109.set_visible(true)
+}
+if(state.desert_achievements.firstboss){
+object10.set_visible(true)
+}
+if(state.desert_achievements.backsurface){
+object11.set_visible(true)
+}
+if(state.secret_blocks.backsurface){
+object111.set_visible(true)
+}
+if(state.desert_achievements.cactus){
+object12.set_visible(true)
+}
+if(state.secret_blocks.cactus){
+object112.set_visible(true)
+}
+if(state.desert_achievements.woodcrusher){
+object13.set_visible(true)
+}
+if(state.secret_blocks.woodcrusher){
+object113.set_visible(true)
+}
+if(state.desert_achievements.entrance){
+object14.set_visible(true)
+}
+if(state.secret_blocks.entrance){
+object114.set_visible(true)
+}
+if(state.desert_achievements.escape){
+object15.set_visible(true)
+}
+if(state.secret_blocks.escape){
+object115.set_visible(true)
+}
+if(state.desert_achievements.pyramidremains){
+object16.set_visible(true)
+}
+if(state.secret_blocks.pyramidremains){
+object116.set_visible(true)
+}
+if(state.desert_achievements.journeyexplosives){
+object17.set_visible(true)
+}
+if(state.secret_blocks.journeyexplosives){
+object117.set_visible(true)
+}
+if(state.desert_achievements.gate){
+object18.set_visible(true)
+}
+if(state.secret_blocks.gate){
+object118.set_visible(true)
+}
+if(state.desert_achievements.hillvillage){
+object19.set_visible(true)
+}
+if(state.secret_blocks.hillvillage){
+object119.set_visible(true)
+}
+if(state.desert_achievements.secondboss){
+object20.set_visible(true)
+}
+if(state.desert_achievements.moistground){
+object21.set_visible(true)
+}
+if(state.secret_blocks.moistground){
+object121.set_visible(true)
+}
+if(state.desert_achievements.sandfall){
+object22.set_visible(true)
+}
+if(state.secret_blocks.sandfall){
+object122.set_visible(true)
+}
+if(state.desert_achievements.longestriver){
+object23.set_visible(true)
+}
+if(state.secret_blocks.longestriver){
+object123.set_visible(true)
+}
+if(state.desert_achievements.garden){
+object24.set_visible(true)
+}
+if(state.secret_blocks.garden){
+object124.set_visible(true)
+}
+if(state.desert_achievements.house){
+object25.set_visible(true)
+}
+if(state.secret_blocks.house){
+object125.set_visible(true)
+}
+if(state.desert_achievements.pyramidpuzzle){
+object26.set_visible(true)
+}
+if(state.secret_blocks.pyramidpuzzle){
+object126.set_visible(true)
+}
+if(state.desert_achievements.insidefactory){
+object27.set_visible(true)
+}
+if(state.secret_blocks.insidefactory){
+object127.set_visible(true)
+}
+if(state.desert_achievements.assemblyline){
+object28.set_visible(true)
+}
+if(state.secret_blocks.assemblyline){
+object128.set_visible(true)
+}
+if(state.desert_achievements.lightlava){
+object29.set_visible(true)
+}
+if(state.secret_blocks.lightlava){
+object129.set_visible(true)
+}
+if(state.desert_achievements.finalboss){
+object30.set_visible(true)
+}
+if(state.desert_achievements.challenges){
+object31.set_visible(true)
+}
+if(state.secret_blocks.challenges){
+object131.set_visible(true)
+}
+if(state.desert_achievements.drill){
+object32.set_visible(true)
+}
+if(state.desert_achievements.fireflower){
+object33.set_visible(true)
+}
+if(state.desert_achievements.secretbonus){
+object34.set_visible(true)
+}
+if(state.desert_achievements.waldo){
+object35.set_visible(true)
+}
+if(state.secret_blocks.waldo){
+object135.set_visible(true)
+}
+update <- true
+wait(0.1)
+Tux.activate()
+}")
+      (button #f)
+      (width 92)
+      (height 32)
+      (x 64)
+      (y 832)
+    )
+    (secretarea
+      (script "")
+      (message "")
+      (width 156)
+      (height 60)
+      (x 992)
+      (y 896)
+    )
+    (sequencetrigger
+      (sequence "endsequence")
+      (width 32)
+      (height 732)
+      (x 5920)
+      (y 224)
+    )
+    (sequencetrigger
+      (sequence "stoptux")
+      (width 32)
+      (height 156)
+      (x 6272)
+      (y 768)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 768)
+    )
+    (stalactite
+      (sprite "images/creatures/stalactite/coconut.sprite")
+      (x 3824)
+      (y 720)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -100)
+      (name "Background")
+      (width 200)
+      (height 35)
+      (tiles
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3453 3454 3455 3456 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3453 3454 3455 3456 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3460 3461 3462 3463 3464 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3460 3461 3462 3463 3464 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 3453 3454 3455 3456 0 0 0 0 3467 3468 3469 3470 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3453 3454 3455 3456 3467 3468 3469 3470 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3453 3454 3455 3456 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 3460 3461 3462 3463 3464 0 0 0 0 0 3451 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3460 3461 3462 3463 3464 0 3451 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3460 3461 3462 3463 3464 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3453 3454 3455 3456 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 3467 3468 3469 3470 0 0 0 0 0 0 3458 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3467 3468 3469 3470 0 0 3458 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3467 3468 3469 3470 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 57 58 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3460 3461 3462 3463 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3451 0 0 0 0 0 0 0 3458 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3451 0 0 0 3458 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3451 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 59 60 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3467 3468 3469 3470 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3458 0 0 0 0 0 0 0 3458 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3458 0 0 0 3458 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3458 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 59 60 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3451 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3458 0 0 0 0 0 0 0 3458 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3458 0 0 0 3458 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3458 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 59 60 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3458 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3458 0 0 0 0 0 0 0 3458 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3458 0 0 0 3458 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3458 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 59 60 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3458 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3458 0 0 0 0 0 0 0 3465 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3458 0 0 0 3465 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3458 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 59 60 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3458 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3465 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3458 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3458 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2841 2842 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3458 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3465 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3465 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2843 2844 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3458 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2845 2846 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3465 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 174 174 174 174 174 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 173 173 173 173 173 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 76 76 76 76 76 76 76 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      )
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 75)
+      (name "Interactive")
+      (width 200)
+      (height 35)
+      (tiles
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 112 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 112 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3347 0 0 0 0 0 3347 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 83 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 83 0 0 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 44 44 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3291 3292 3292 3292 3293 0 0 3291 3293 0 0 0 0 3291 3293 0 0 0 0 3291 3292 3292 3292 3292 3292 3293 0 0 0 0 0 3291 3347 3292 3292 3292 3347 3293 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 0 44 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 0 44 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      3292 3292 3430 3430 3430 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3293 0 0 0 3295 3296 3296 3296 3297 0 0 3295 3297 77 77 77 77 3295 3297 0 0 0 0 3295 3296 3296 3296 3296 3296 3297 0 0 0 0 0 3295 3296 3296 3296 3296 3296 3297 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 44 44 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3297 0 0 0 3299 3300 3300 3300 3301 0 0 3299 3301 44 44 44 44 3299 3301 0 0 0 0 3299 3300 3300 3300 3300 3300 3301 0 0 0 0 0 3299 3300 3300 3300 3300 3300 3301 0 0 0 0 3291 3292 3292 3292 3292 3406 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3301 0 0 0 3299 3300 3300 3300 3301 0 0 3299 3308 3292 3292 3292 3292 3311 3301 0 0 0 0 3299 3300 3351 3502 3352 3300 3301 0 0 0 0 0 3299 3300 3300 3300 3300 3300 3301 0 0 0 0 3295 3296 3296 3296 3296 3407 3408 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 0 0 0 3430 3430 3430 3292 3292 3292 3292 3292 3292 3293 0 3291 3293 0 3294 0 0 0 3291 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3293 0 3291 3292 3292 3292 3292 3292 3292 3430 3430 3430 3430 3430 3430 3430 3430 3430 3430 3430 3430 3430 3430 3430
+      3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3301 0 0 0 3299 3300 3300 3300 3301 0 0 3299 3309 3296 3296 3296 3296 3312 3301 0 0 0 0 3299 3300 3500 3906 3501 3300 3301 0 0 0 0 0 3299 3300 3300 3300 3300 3300 3301 0 0 0 0 3299 3300 3300 3300 3300 3300 3409 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3297 0 3295 3297 0 3298 0 0 0 3295 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 1311 1311 0 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3314 3292 3313 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296 3296
+      3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3301 0 0 0 3299 3300 3300 3300 3301 0 0 3299 3300 3300 3300 3300 3300 3300 3301 0 0 0 0 3299 3300 3353 3503 3354 3300 3301 0 0 0 0 0 3299 3300 3300 3300 3300 3300 3301 0 0 0 0 3299 3300 3300 3300 3300 3300 3300 3300 3351 3502 3502 3502 3502 3502 3502 3502 3352 3300 3300 3300 3307 3304 3310 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3301 3339 3299 3308 3339 3316 3292 3292 3292 3311 3300 3307 3304 3304 3304 3310 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3307 3304 3304 3304 3304 3304 3310 0 0 44 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3309 3296 3312 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300
+      3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3301 0 0 0 3299 3300 3300 3300 3301 0 0 3299 3300 3300 3300 3300 3300 3300 3301 0 0 0 0 3299 3300 3300 3300 3300 3300 3301 0 0 0 0 0 3299 3300 3300 3300 3300 3300 3301 0 0 0 0 3299 3300 3300 3300 3300 3300 3300 3300 3500 3379 3379 3379 3906 3379 3379 3379 3501 3300 3300 3300 3308 3292 3311 3300 3300 3300 3864 3859 3865 3300 3300 3300 3300 3300 3300 3300 3300 3300 3308 3340 3311 3309 3296 3317 3296 3296 3296 3312 3300 3308 3292 3292 3292 3311 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3308 3292 3292 3292 3292 3292 3311 44 0 0 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300
+      3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3301 0 0 0 3299 3300 3300 3300 3301 0 0 3299 3300 3300 3300 3300 3300 3300 3301 0 0 0 0 3299 3300 3300 3300 3300 3300 3301 0 0 0 0 0 3299 3300 3300 3300 3300 3300 3301 0 0 0 0 3299 3300 3300 3300 3300 3300 3300 3300 3353 3503 3503 3503 3503 3503 3503 3503 3354 3300 3300 3300 3309 3296 3312 3300 3300 3300 3309 3296 3312 3300 3300 3300 3300 3300 3300 3300 3300 3300 3309 3296 3312 3300 3300 3300 3300 3300 3300 3300 3300 3309 3296 3296 3296 3312 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3309 3296 3296 3296 3296 3296 3312 1311 0 0 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300
+      3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3301 0 0 0 3299 3300 3300 3300 3301 0 0 3299 3300 3300 3300 3300 3300 3300 3301 0 0 0 0 3299 3300 3300 3300 3300 3300 3301 0 0 0 0 0 3299 3300 3300 3300 3300 3300 3301 0 0 0 0 3299 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 1311 1311 1311 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300 3300
+      )
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 100)
+      (name "Foreground")
+      (width 200)
+      (height 35)
+      (tiles
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3474 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3481 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3481 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3481 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3481 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 3292 3292 3292 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3314 3292 3292 3292 3292 3313 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3481 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3309 3296 3296 3296 3296 3312 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3520 3521 0 0 0 0 0 0 0 0 0 0 1608 1609 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3481 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3300 3300 3300 3300 3300 3300 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3292 3292 3292 3292 3292 3292 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3522 3523 0 0 0 0 0 0 0 0 0 0 1610 1611 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292 3292
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3300 3300 3300 3300 3300 3300 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3292 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3292 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3475 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      )
+    )
+    (tilemap
+      (solid #f)
+      (alpha 0)
+      (z-pos 101)
+      (name "Sign01")
+      (path
+        (node
+          (x 3584)
+          (y 896)
+        )
+      )
+      (width 2)
+      (height 2)
+      (tiles
+      3163 3164
+      3165 3166
+      )
+    )
+    (tilemap
+      (solid #f)
+      (alpha 0)
+      (z-pos 102)
+      (name "Sign02")
+      (path
+        (node
+          (x 3968)
+          (y 896)
+        )
+      )
+      (width 2)
+      (height 2)
+      (tiles
+      141 142
+      143 144
+      )
+    )
+    (trampoline
+      (portable #f)
+      (sprite "images/objects/trampoline/trampoline_fix.sprite")
+      (x 5664)
+      (y 960)
+    )
+    (zeekling
+      (x 4488)
+      (y 851)
+    )
+  )
+  (tileset "images/mw_tiles.strf")
+)

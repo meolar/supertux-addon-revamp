@@ -1,0 +1,8 @@
+(supertux-addoninfo
+  (id "manuel_desert_world")
+  (version 1)
+  (type "world")
+  (title "Desert World")
+  (author "manuel")
+  (license "GPL 2+ / CC-by-sa 3.0")
+)

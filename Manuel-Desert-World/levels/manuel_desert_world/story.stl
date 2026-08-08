@@ -1,0 +1,485 @@
+(supertux-level
+  (version 2)
+  (name (_ "Desert World"))
+  (author "manuel")
+  (license "GPL 2+ / CC-by-sa 3.0")
+  (target-time 0)
+  (sector
+    (name "main")
+    (ambient-light 1 1 1)
+    (background
+      (speed 0.5)
+      (image-top "images/background/cloudlesssky.png")
+      (image "images/background/cloudlesssky.png")
+      (image-bottom "images/background/cloudlesssky.png")
+    )
+    (camera
+      (mode "normal")
+    )
+    (platform
+      (name "coast1")
+      (running #f)
+      (sprite "images/tiles/story/coastline.sprite")
+      (path
+        (node
+          (x 0)
+          (y 832)
+        )
+        (node
+          (x 0)
+          (y 576)
+        )
+      )
+    )
+    (platform
+      (name "coast2")
+      (running #f)
+      (sprite "images/tiles/story/coastline.sprite")
+      (path
+        (node
+          (x 128)
+          (y 832)
+        )
+        (node
+          (x 128)
+          (y 576)
+        )
+      )
+    )
+    (platform
+      (name "coast3")
+      (running #f)
+      (sprite "images/tiles/story/coastline.sprite")
+      (path
+        (node
+          (x 256)
+          (y 832)
+        )
+        (node
+          (x 256)
+          (y 576)
+        )
+      )
+    )
+    (platform
+      (name "coast4")
+      (running #f)
+      (sprite "images/tiles/story/coastline.sprite")
+      (path
+        (node
+          (x 384)
+          (y 832)
+        )
+        (node
+          (x 384)
+          (y 576)
+        )
+      )
+    )
+    (platform
+      (name "coast5")
+      (running #f)
+      (sprite "images/tiles/story/coastline.sprite")
+      (path
+        (node
+          (x 512)
+          (y 832)
+        )
+        (node
+          (x 512)
+          (y 576)
+        )
+      )
+    )
+    (platform
+      (name "coast6")
+      (running #f)
+      (sprite "images/tiles/story/coastline.sprite")
+      (path
+        (node
+          (x 640)
+          (y 832)
+        )
+        (node
+          (x 640)
+          (y 576)
+        )
+      )
+    )
+    (platform
+      (name "coast7")
+      (running #f)
+      (sprite "images/tiles/story/coastline.sprite")
+      (path
+        (node
+          (x 768)
+          (y 832)
+        )
+        (node
+          (x 768)
+          (y 576)
+        )
+      )
+    )
+    (platform
+      (name "coast8")
+      (running #f)
+      (sprite "images/tiles/story/coastline.sprite")
+      (path
+        (node
+          (x 896)
+          (y 832)
+        )
+        (node
+          (x 896)
+          (y 576)
+        )
+      )
+    )
+    (platform
+      (name "coast9")
+      (running #f)
+      (sprite "images/tiles/story/coastline.sprite")
+      (path
+        (node
+          (x 1024)
+          (y 832)
+        )
+        (node
+          (x 1024)
+          (y 576)
+        )
+      )
+    )
+    (platform
+      (running #f)
+      (sprite "images/tiles/story/waterline.sprite")
+      (path
+        (node
+          (x -10)
+          (y 590)
+        )
+      )
+    )
+    (platform
+      (running #f)
+      (sprite "images/tiles/story/waterline.sprite")
+      (path
+        (node
+          (x 118)
+          (y 590)
+        )
+      )
+    )
+    (platform
+      (running #f)
+      (sprite "images/tiles/story/waterline.sprite")
+      (path
+        (node
+          (x 246)
+          (y 590)
+        )
+      )
+    )
+    (platform
+      (running #f)
+      (sprite "images/tiles/story/waterline.sprite")
+      (path
+        (node
+          (x 374)
+          (y 590)
+        )
+      )
+    )
+    (platform
+      (running #f)
+      (sprite "images/tiles/story/waterline.sprite")
+      (path
+        (node
+          (x 502)
+          (y 590)
+        )
+      )
+    )
+    (platform
+      (running #f)
+      (sprite "images/tiles/story/waterline.sprite")
+      (path
+        (node
+          (x 630)
+          (y 590)
+        )
+      )
+    )
+    (platform
+      (running #f)
+      (sprite "images/tiles/story/waterline.sprite")
+      (path
+        (node
+          (x 758)
+          (y 590)
+        )
+      )
+    )
+    (platform
+      (running #f)
+      (sprite "images/tiles/story/waterline.sprite")
+      (path
+        (node
+          (x 886)
+          (y 590)
+        )
+      )
+    )
+    (platform
+      (running #f)
+      (sprite "images/tiles/story/waterline.sprite")
+      (path
+        (node
+          (x 1014)
+          (y 590)
+        )
+      )
+    )
+    (platform
+      (sprite "images/tiles/story/tuxonboat.sprite")
+      (path
+        (node
+          (x 400.6712)
+          (y 556.3481)
+        )
+        (node
+          (x 400.6712)
+          (y 550.3481)
+        )
+      )
+    )
+    (platform
+      (name "crusher1")
+      (running #f)
+      (sprite "images/tiles/story/flyingcrusher.sprite")
+      (path
+        (node
+          (x 1312)
+          (y 320)
+          (time 3)
+        )
+        (node
+          (x -128)
+          (y 320)
+        )
+      )
+    )
+    (platform
+      (name "cloud1")
+      (running #f)
+      (sprite "images/tiles/story/darkclouds.sprite")
+      (path
+        (node
+          (x -64)
+          (y 0)
+        )
+        (node
+          (x 0)
+          (y -256)
+        )
+      )
+    )
+    (platform
+      (name "cloud2")
+      (running #f)
+      (sprite "images/tiles/story/darkclouds.sprite")
+      (path
+        (node
+          (x 736)
+          (y 0)
+        )
+        (node
+          (x 800)
+          (y -288)
+        )
+      )
+    )
+    (platform
+      (name "coast0")
+      (running #f)
+      (sprite "images/tiles/story/coastline.sprite")
+      (path
+        (node
+          (x 1152)
+          (y 832)
+        )
+        (node
+          (x 1152)
+          (y 576)
+        )
+      )
+    )
+    (platform
+      (running #f)
+      (sprite "images/tiles/story/waterline.sprite")
+      (path
+        (node
+          (x 1141.393)
+          (y 590.4957)
+        )
+      )
+    )
+    (platform
+      (running #f)
+      (sprite "images/tiles/story/waterline.sprite")
+      (path
+        (node
+          (x 1269.38)
+          (y 590.8492)
+        )
+      )
+    )
+    (particles-rain
+      (z-pos -200)
+    )
+    (scripttrigger
+      (script "Tux.deactivate()
+Tux.set_visible(false)
+settings.set_ambient_light(0.1,0.1,0.1)
+wait(1.9)
+settings.set_ambient_light(1,1,1)
+wait(0.1)
+sector.play_sound(\"sounds/lightning.wav\")
+settings.set_ambient_light(0.1,0.1,0.1)
+wait(2)
+Text.set_text(\"TUX: Heeelp!\")
+Text.fade_in(0.2)
+wait(1.5)
+Text.fade_out(0.2)
+wait(1)
+crusher1.goto_node(1)
+wait(1)
+settings.set_ambient_light(1,1,1)
+wait(0.1)
+sector.play_sound(\"sounds/lightning.wav\")
+settings.set_ambient_light(0.1,0.1,0.1)
+wait(2)
+Text.set_text(\"TUX: Help Me!\")
+Text.fade_in(0.2)
+wait(1.5)
+Text.fade_out(0.2)
+wait(0.5)
+settings.set_ambient_light(1,1,1)
+wait(0.1)
+sector.play_sound(\"sounds/lightning.wav\")
+settings.set_ambient_light(0.1,0.1,0.1)
+wait(1)
+Effect.fade_out(1)
+wait(2)
+coast1.goto_node(1)
+coast2.goto_node(1)
+coast3.goto_node(1)
+coast4.goto_node(1)
+coast5.goto_node(1)
+coast6.goto_node(1)
+coast7.goto_node(1)
+coast8.goto_node(1)
+coast9.goto_node(1)
+coast0.goto_node(1)
+cloud1.goto_node(1)
+cloud2.goto_node(1)
+settings.set_ambient_light(1,1,1)
+wait(2)
+Effect.fade_in(1)
+wait(1.5)
+Text.set_text(\"TUX: Huh?\")
+Text.fade_in(0.2)
+wait(1.5)
+Text.set_text(\"TUX: Where am I?\")
+wait(2)
+Text.fade_out(0.2)
+wait(1)
+Text.set_text(\"TUX: Time to explore, I guess...\")
+Text.fade_in(0.2)
+wait(2)
+Text.fade_out(0.2)
+wait(1)
+Tux.activate()
+sector.Tux.trigger_sequence(\"stoptux\")")
+      (button #f)
+      (width 156)
+      (height 92)
+      (x 0)
+      (y 512)
+    )
+    (spawnpoint
+      (name "main")
+      (x 64)
+      (y 480)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 0)
+      (name "Interactive")
+      (width 40)
+      (height 25)
+      (tiles
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      )
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 100)
+      (name "Foreground")
+      (width 40)
+      (height 25)
+      (tiles
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      76 76 76 76 76 76 76 76 76 76 76 76 76 76 76 76 76 76 76 76 76 76 76 76 76 76 76 76 76 76 76 76 76 76 76 76 76 76 76 76
+      75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75
+      75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75
+      75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75
+      75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75
+      75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75 75
+      )
+    )
+  )
+)

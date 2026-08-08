@@ -1,0 +1,878 @@
+# GERMAN TRANSLATION FILE FOR SUPERTUX 2 ADD-ON "WAFFLES DESERT"
+# Copyright (C) 2016-2017 Manuel Dathe
+# This file is distributed under the same license as the "manuels_desert_world" package.
+
+msgid ""
+msgstr ""
+"Project-Id-Version: Desert World Addon for SuperTux2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-06-17 13:53+0000\n"
+"PO-Revision-Date: 2016-06-17 13:53+0000\n"
+"Last-Translator: manuel\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: Germany\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/levels/Desert_World/story.stl:3
+msgid "Desert World"
+msgstr "Wüstenwelt"
+
+#: data/levels/Desert_World/story.stl:474
+msgid "TUX: Heeelp!"
+msgstr "TUX: Hilfeee!"
+
+#: data/levels/Desert_World/story.stl:486
+msgid "TUX: Help Me!"
+msgstr "TUX: Helft miiir!"
+
+#: data/levels/Desert_World/story.stl:514
+msgid "TUX: Huh?"
+msgstr "TUX: Huch!?"
+
+#: data/levels/Desert_World/story.stl:517
+msgid "TUX: Where am I?"
+msgstr "TUX: Wo bin ich?"
+
+#: data/levels/Desert_World/story.stl:521
+msgid "TUX: Time to explore, I guess..."
+msgstr "TUX: Ich seh mich hier mal um..."
+
+#: data/levels/Desert_World/desertjourney01.stl:3
+msgid "The Hot Continent"
+msgstr "Der Heiße Kontinent"
+
+#: data/levels/Desert_World/tumbleweeddunes.stl:3
+msgid "Southern Dunes"
+msgstr "Südliche Dünen"
+
+#: data/levels/Desert_World/tumbleweedtrouble.stl:3
+msgid "Tumbleweed Trouble"
+msgstr "Ärger mit Steppenläufern"
+
+#: data/levels/Desert_World/chaoscanyon.stl:3
+msgid "Chaos Canyon"
+msgstr "Schlucht des Chaos"
+
+#: data/levels/Desert_World/desertjourney05.stl:3
+msgid "More Holes"
+msgstr "Noch mehr Löcher"
+
+#: data/levels/Desert_World/desertjourney05.stl:95
+msgid "#You need to activate the platform somehow..."
+msgstr "#Diese Plattform muss irgendwie aktiviert werden..."
+
+#: data/levels/Desert_World/underground01.stl:3
+msgid "Underground Paths"
+msgstr "Unterirdische Pfade"
+
+#: data/levels/Desert_World/underground02.stl:3
+msgid "Stalactite and Light"
+msgstr "Stalaktiten im Licht"
+
+#: data/levels/Desert_World/underground03.stl:3
+msgid "Build Your Way"
+msgstr "Räume deinen Weg"
+
+#: data/levels/Desert_World/underground03.stl:86
+msgid "Warning!"
+msgstr "Warnung!"
+
+#: data/levels/Desert_World/underground03.stl:89
+msgid "Think before doing something!"
+msgstr "Erst denken - dann handeln!"
+
+#: data/levels/Desert_World/underground03.stl:91
+msgid "You may get stuck in this level!"
+msgstr "Du kannst in diesem Level stecken bleiben!"
+
+#: data/levels/Desert_World/underground03.stl:93
+msgid "If so, pull one of the levers."
+msgstr "Betätige einen der Schalter, wenn das passiert."
+
+#: data/levels/Desert_World/underground03.stl:95
+msgid "Only this one will not reset the level."
+msgstr "Nur dieser Schalter wird das Level nicht zurücksetzen."
+
+#: data/levels/Desert_World/underground03.stl:97
+msgid "Thanks for your attention.\\nThe Mummies"
+msgstr "Vielen Danl für deine Aufmerksamkeit.\\nDie Mummies"
+
+#: data/levels/Desert_World/unsolidpath.stl:3
+msgid "Unsolid Path"
+msgstr "Loser Boden"
+
+#: data/levels/Desert_World/unsolidpath.stl:63
+msgid "TUXDOLL: Why are you shouting in my home? It's sooo loud."
+msgstr "TUXDOLL: Warum brüllst du so in mein Zuhause? Es ist sooo laut."
+
+#: data/levels/Desert_World/desertjourney10.stl:3
+msgid "A filthy Plan"
+msgstr "Ein fieser Plan"
+
+#: data/levels/Desert_World/desertjourney10.stl:90
+msgid "MUMMY: The Goobom Spy reached us!"
+msgstr "MUMMY: Der Goobom-Spion hat uns erreicht!"
+
+#: data/levels/Desert_World/desertjourney10.stl:94
+msgid "MUMMY: I didn't think he'd make it this far!"
+msgstr "MUMMY: Ich hätte nicht gedacht, dass er so weit kommt!"
+
+#: data/levels/Desert_World/desertjourney10.stl:527
+msgid "MUMMY 1: Oh, you aren't a Goobom?"
+msgstr "MUMMY 1: Oh, du bist kein Goobom?"
+
+#: data/levels/Desert_World/desertjourney10.stl:530
+msgid "MUMMY 2: He isn't?"
+msgstr "MUMMY 2: Er ist keiner?"
+
+#: data/levels/Desert_World/desertjourney10.stl:532
+msgid "TUX: No, I'm not!"
+msgstr "TUX: Nein, bin ich nicht!"
+
+#: data/levels/Desert_World/desertjourney10.stl:534
+msgid "MUMMY 2: Oh..."
+msgstr "MUMMY 2: Ups..."
+
+#: data/levels/Desert_World/desertjourney10.stl:536
+msgid "MUMMY 1: Then whe have to excuse..."
+msgstr "MUMMY 1: Dann müssen wir uns entschuldigen..."
+
+#: data/levels/Desert_World/desertjourney10.stl:538
+msgid "MUMMY 2: Excuse us!"
+msgstr "MUMMY 2: Entschuldigung!"
+
+#: data/levels/Desert_World/desertjourney10.stl:540
+msgid "MUMMY 1: Maybe whe have to explain something..."
+msgstr "MUMMY 1: Vielleicht sollten wir etwas erklären..."
+
+#: data/levels/Desert_World/desertjourney10.stl:542
+msgid "MUMMY 2: Why we got so angry when you arrived..."
+msgstr "MUMMY 2: Warum wir bei deiner Ankunft so wütend wurden..."
+
+#: data/levels/Desert_World/desertjourney10.stl:544
+msgid "MUMMY 1: You look a bit like a Goobom."
+msgstr "MUMMY 1: Du siehst den Goobom ähnlich."
+
+#: data/levels/Desert_World/desertjourney10.stl:546
+msgid "TUX: But I'm a Penguin!"
+msgstr "TUX: Aber ich bin ein Pinguin!"
+
+#: data/levels/Desert_World/desertjourney10.stl:548
+msgid "MUMMY 2: We cannot see very well..."
+msgstr "MUMMY 2: Wir können nicht gut sehen..."
+
+#: data/levels/Desert_World/desertjourney10.stl:550
+msgid "MUMMY 1: The Gooboms are our Enemies."
+msgstr "MUMMY 1: Die Gooboms sind unsere Feinde."
+
+#: data/levels/Desert_World/desertjourney10.stl:552
+msgid "MUMMY 1: They want to bomb down our pyramid."
+msgstr "MUMMY 1: Sie wollen unsere Pyramide zerstören."
+
+#: data/levels/Desert_World/desertjourney10.stl:554
+msgid "MUMMY 1: So the Pharaoh told us..."
+msgstr "MUMMY 1: Also hat uns der Pharao befohlen..."
+
+#: data/levels/Desert_World/desertjourney10.stl:556
+msgid "MUMMY 2: TO BURN THEM DOWN WITH LAVA!"
+msgstr "MUMMY 2: SIE MIT LAVA ZU VERBRENNEN!"
+
+#: data/levels/Desert_World/desertjourney10.stl:558
+msgid "MUMMY 1: We were friends for a long time."
+msgstr "MUMMY 1: Wir waren lange Zeit Freunde."
+
+#: data/levels/Desert_World/desertjourney10.stl:560
+msgid "MUMMY 2: Good friends!"
+msgstr "MUMMY 2: Gute Freunde!"
+
+#: data/levels/Desert_World/desertjourney10.stl:562
+msgid "MUMMY 1: But now they have changed..."
+msgstr "MUMMY 1: Doch sie haben sich verändert..."
+
+#: data/levels/Desert_World/desertjourney10.stl:564
+msgid "MUMMY 2: Maybe you can help us..."
+msgstr "MUMMY 2: Vielleicht kannst du uns helfen..."
+
+#: data/levels/Desert_World/desertjourney10.stl:566
+msgid "MUMMY 1: TO DEFEAT THEM!"
+msgstr "MUMMY 1: SIE ZU BESIEGEN!"
+
+#: data/levels/Desert_World/desertjourney10.stl:568
+msgid "MUMMY 1: We'll bring you up the Lava Shaft."
+msgstr "MUMMY 1: Wir bringen dich den Lava-Schacht hoch."
+
+#: data/levels/Desert_World/desertjourney11.stl:3
+msgid "Back to the Surface"
+msgstr "Zurück an die Oberfläche"
+
+#: data/levels/Desert_World/desertjourney12.stl:3
+msgid "Cactus!"
+msgstr "Kakteen!"
+
+#: data/levels/Desert_World/pyramidremains.stl:3
+msgid "The Remains of the Pyramids"
+msgstr "Die Überreste der Pyramiden"
+
+#: data/levels/Desert_World/desertjourney14.stl:3
+msgid "Dangerous Woodblocks"
+msgstr "Gefahr von Oben"
+
+#: data/levels/Desert_World/desertjourney15.stl:3
+msgid "The Entrance"
+msgstr "Der Eingang"
+
+#: data/levels/Desert_World/escape.stl:3
+msgid "Escape!"
+msgstr "Fliehe!"
+
+#: data/levels/Desert_World/desertjourney17.stl:3
+msgid "Journey to the Explosives"
+msgstr "Reise zu den Explosiven"
+
+#: data/levels/Desert_World/gate.stl:3
+msgid "The Gate to the Goobom Village"
+msgstr "Das Tor zum Goobom-Dorf"
+
+#: data/levels/Desert_World/gate.stl:72
+msgid ""
+"-Warning\n"
+"#This territory belongs to the gooboms. Don't go there.\n"
+"!images/tiles/signs/right.png\n"
+"#Just follow all the nice signs.\n"
+"#~the Gooboms~"
+msgstr "-Warnung\n#Dieses Gebiet gehört den Gooboms. Geh nicht dorthin.\n!images/tiles/signs/right.png\n#Folge einfach diesen netten Schildern.\n#~die Gooboms~"
+
+#: data/levels/Desert_World/desertjourney19.stl:3
+msgid "Hill Village"
+msgstr "Dorf in den Hügeln"
+
+#: data/levels/Desert_World/bombboss2.stl:3
+msgid "The Goobom King"
+msgstr "Der König der Gooboms"
+
+#: data/levels/Desert_World/bombboss2.stl:2245
+msgid "GOOBOM KING: Who are you?"
+msgstr "GOOBOM-KÖNIG: Wer bist du?"
+
+#: data/levels/Desert_World/bombboss2.stl:2245
+msgid "TUX: For the Mummiiiis!"
+msgstr "TUX: Für die Mummiiiis!"
+
+#: data/levels/Desert_World/bombboss2.stl:2248
+msgid "TUX: For the Mummiiiis!"
+msgstr "TUX: Für die Mummiiiis!"
+
+#: data/levels/Desert_World/bombboss2.stl:2377
+msgid "GOOBOM KING: Please stop!"
+msgstr "GOOBOM-KÖNIG: Hör auf!"
+
+#: data/levels/Desert_World/bombboss2.stl:2380
+msgid "TUX: Then explain me why you destroyed the mummi's pyramid."
+msgstr "TUX: Dann erkläre mir, warum du die Pyramide zerstört hast."
+
+#: data/levels/Desert_World/bombboss2.stl:2382
+msgid "GOOBOM KING: A few days ago someone came."
+msgstr "GOOBOM-KÖNIG: Vor ein paar Tagen kam jemand zu mir."
+
+#: data/levels/Desert_World/bombboss2.stl:2384
+msgid "GOOBOM KING: He called himself NOLOK'AMUN."
+msgstr "GOOBOM-KÖNIG: Er nannte sich NOLOK'AMUN"
+
+#: data/levels/Desert_World/bombboss2.stl:2386
+msgid "TUX: Nolok'amun? This must be Nolok!"
+msgstr "TUX: Nolok'amun? Das muss Nolok sein!"
+
+#: data/levels/Desert_World/bombboss2.stl:2388
+msgid "GOOBOM KING: He told me that the mummies plan something."
+msgstr "GOOBOM-KÖNIG: Er erzählte mir, dass die Mummies etwas planen."
+
+#: data/levels/Desert_World/bombboss2.stl:2390
+msgid "GOOBOM KING: That they create a machine inside their pyramid..."
+msgstr "GOOBOM-KÖNIG: Dass sie eine Maschine in ihrer Pyramide bauen..."
+
+#: data/levels/Desert_World/bombboss2.stl:2392
+msgid "GOOBOM KING: ...which will destroy my kingdom."
+msgstr "GOOBOM-KÖNIG: ...die mein Königreich zerstören wird."
+
+#: data/levels/Desert_World/bombboss2.stl:2394
+msgid "GOOBOM KING: To proof it, he showed me some plans."
+msgstr "GOOBOM-KÖNIG: Er zeigte mir Pläne, um es zu beweisen."
+
+#: data/levels/Desert_World/bombboss2.stl:2396
+msgid "GOOBOM KING: So I sent one of my Gooboms to destroy it."
+msgstr "GOOBOM-KÖNIG: Also schickte ich einen Goobom los."
+
+#: data/levels/Desert_World/bombboss2.stl:2398
+msgid "TUX: But the Mummies didn't do anything until you attacked them."
+msgstr "TUX: Aber die Mummies haben vor deinem Angriff gar nichts getan."
+
+#: data/levels/Desert_World/bombboss2.stl:23
+msgid "TUX: I must find Nolok."
+msgstr "TUX: Ich muss Nolok finden."
+
+#: data/levels/Desert_World/bombboss2.stl:23
+msgid "TUX: He has to tell me why he told you lies."
+msgstr "TUX: Er soll mir erklären, warum er dich angelogen hat."
+
+#: data/levels/Desert_World/thenile01.stl:3
+msgid "Moist Ground"
+msgstr "Feuchter Boden"
+
+#: data/levels/Desert_World/thenile01.stl:140
+msgid ""
+"-Warning\n"
+"!images/objects/sawblade/antlion0.png\n"
+"#Antlions attacking\n"
+"#Don't get too close!"
+msgstr "-Warnung!\n!images/objects/sawblade/antlion0.png\n#Ameisenlöwen greifen an\n#Komm ihnen nicht zu nahe!"
+
+#: data/levels/Desert_World/thenile02.stl:3
+msgid "Sandfall Grotto"
+msgstr "Sandfall-Grotte"
+
+#: data/levels/Desert_World/thenile02.stl:543
+msgid ""
+"-Hint\n"
+"#Jump at the UP sign\n"
+"!images/tiles/signs/up.png"
+msgstr "-Hinweis\n#Spring beim HOCH-Schild\n!images/tiles/signs/up.png"
+
+#: data/levels/Desert_World/thenile03.stl:3
+msgid "The longest River of the World"
+msgstr "Der längste Fluss der Welt"
+
+#: data/levels/Desert_World/desertjourney24.stl:3
+msgid "Garden of Secrets"
+msgstr "Garten der Geheimnisse"
+
+#: data/levels/Desert_World/desertjourney25.stl:3
+msgid "House of Rooms"
+msgstr "Haus der Räume"
+
+#: data/levels/Desert_World/desertjourney25.stl:1219
+msgid "NOLOK: This country is far too hot for me..."
+msgstr "NOLOK: Dieses Land ist viel zu heiß für mich..."
+
+#: data/levels/Desert_World/desertjourney25.stl:1226
+msgid "SANDBALL: Nolok!"
+msgstr "SANDBALL: Nolok!"
+
+#: data/levels/Desert_World/desertjourney25.stl:1229
+msgid "SANDBALL: We need your help at the factory!"
+msgstr "SANDBALL: Wir brauchen deine Hilfe in der Fabrik!"
+
+#: data/levels/Desert_World/desertjourney25.stl:1231
+msgid "NOLOK: AGAIN?"
+msgstr "NOLOK: SCHON WIEDER?"
+
+#: data/levels/Desert_World/desertjourney25.stl:1233
+msgid "NOLOK: All right... I'm coming."
+msgstr "NOLOK: Na gut... Ich komme."
+
+#: data/levels/Desert_World/desertjourney26.stl:3
+msgid "The Pyramids Entrance Puzzles"
+msgstr "Die Rätsel der Pyramide"
+
+#: data/levels/Desert_World/desertjourney26.stl:567
+msgid "\\n\\n\\nWhich phrase is correct?"
+msgstr "\\n\\n\\nWelcher Satz stimmt?"
+
+#: data/levels/Desert_World/desertjourney26.stl:337
+msgid ""
+"#Press ACTION Key to Switch Layers.\n"
+"#You are only allowed to switch three times!"
+msgstr "#Drücke die AKTION-Taste, um die Flächen zu wechseln.\n#Du darfst das nur dreimal tun."
+
+#: data/levels/Desert_World/desertjourney26.stl:343
+msgid "#You saw four animal statues."
+msgstr "#Du hast vier Tier-Statuen gesehen."
+
+#: data/levels/Desert_World/desertjourney26.stl:348
+msgid "#You were allowed to switch two times."
+msgstr "#Du durftest nur zweimal die Flächen wechseln."
+
+#: data/levels/Desert_World/desertjourney26.stl:353
+msgid "#There is just one secret area in this level."
+msgstr "#In diesem Level gibt es nur ein Versteck."
+
+#: data/levels/Desert_World/desertjourney26.stl:353
+msgid "#The first puzzle had six moving blocks."
+msgstr "#Das erste Rätsel hatte sechs sich bewegende Blöcke."
+
+#: data/levels/Desert_World/desertjourney26.stl:1348
+msgid ""
+"#^ Difficult Entrance. Do not use!\n"
+"#< Normal Entrace. This way, please."
+msgstr "#^ Schwerer Eingab. Nicht verwenden!\n#< Normaler Eingang. Dort entlang gehen."
+
+#: data/levels/Desert_World/factory01.stl:3
+msgid "Inside the Factory"
+msgstr "In der Fabrik"
+
+#: data/levels/Desert_World/factory02.stl:3
+msgid "Assembly-Line Work"
+msgstr "Fließband-Arbeit"
+
+#: data/levels/Desert_World/factory03.stl:3
+msgid "Light and Lava"
+msgstr "Licht und Lava"
+
+#: data/levels/Desert_World/finalboss.stl:3
+msgid "Fighting Nolok!"
+msgstr "Bekämpfe Nolok!"
+
+#: data/levels/Desert_World/finalboss.stl:45
+msgid "NOLOK: Tux? What are you doing here?"
+msgstr "NOLOK: Tux? Was machst du hier?"
+
+#: data/levels/Desert_World/finalboss.stl:48
+msgid "TUX: I could ask the same."
+msgstr "TUX: Ich könnte das gleiche fragen."
+
+#: data/levels/Desert_World/finalboss.stl:50
+msgid "TUX: I met the Mummies and the Gooboms..."
+msgstr "TUX: Ich habe Mummies und Gooboms getroffen"
+
+#: data/levels/Desert_World/finalboss.stl:52
+msgid "TUX: ... and had to find out that you stired\\nthem up against each other!"
+msgstr "TUX: ...und musste erfahren, dass du sie\\ngegeneinander aufgehetzt hast!"
+
+#: data/levels/Desert_World/finalboss.stl:54
+msgid "TUX: Why did you do that?"
+msgstr "TUX: Warum hast du das getan?"
+
+#: data/levels/Desert_World/finalboss.stl:56
+msgid "NOLOK: I had to."
+msgstr "NOLOK: Ich musste."
+
+#: data/levels/Desert_World/finalboss.stl:58
+msgid "NOLOK: You always defeated my creatures this fast..."
+msgstr "NOLOK: Du hast meine Kreaturen immer so schnell besiegt..."
+
+#: data/levels/Desert_World/finalboss.stl:60
+msgid "NOLOK: ...so I wanted to create stronger ones."
+msgstr "NOLOK: ...da musste ich stärkere erstellen."
+
+#: data/levels/Desert_World/finalboss.stl:62
+msgid "NOLOK: You would never destroy my Obsiditowers."
+msgstr "NOLOK: Du würdest niemals einen meiner Obsiditower besiegen."
+
+#: data/levels/Desert_World/finalboss.stl:64
+msgid "NOLOK: But I needed a lot of lava\\nand cool it down on the surface."
+msgstr "NOLOK: Aber ich brauchte viel Lava,\\num sie an der Oberfläche abzukühlen."
+
+#: data/levels/Desert_World/finalboss.stl:66
+msgid "NOLOK: Unfortunately, all my pipes melted."
+msgstr "NOLOK: Leider sind alle meine Röhren geschmolzen."
+
+#: data/levels/Desert_World/finalboss.stl:68
+msgid "NOLOK: I knew that the Mummys had better pipes\\nbut they didn't want to support me."
+msgstr "NOLOK: Die Mummies hatten besser Röhren,\\naber sie wollten mich nicht unterstützen."
+
+#: data/levels/Desert_World/finalboss.stl:70
+msgid "NOLOK: So I made this great plan."
+msgstr "NOLOK: Deshalb habe ich mir diesen Plan ausgedacht."
+
+#: data/levels/Desert_World/finalboss.stl:72
+msgid "TUX: That's not nice at all!"
+msgstr "TUX: Das ist überhaupt nicht nett!"
+
+#: data/levels/Desert_World/finalboss.stl:74
+msgid "NOLOK: I'm never nice at all."
+msgstr "NOLOK: Ich bin niemals nett."
+
+#: data/levels/Desert_World/finalboss.stl:
+msgid "NOLOK: I will let my prototypes attack you."
+msgstr "NOLOK: Meine Prototypen sollen dich angreifen."
+
+#: data/levels/Desert_World/credits.stl:3
+msgid "Credits"
+msgstr "Abspann"
+
+#: data/levels/Desert_World/credits.stl:121
+msgid "CONGRATULATION!\\nYou finished the Desert World!"
+msgstr "HERZLICHEN GLÜCKWUNSCH!\\nDu hast die Wüstenwelt beendet!"
+
+#: data/levels/Desert_World/credits.stl:123
+msgid "Levels, scripts and desert textures\\nby manuel"
+msgstr "Level, Scripts und Wüsten-Texturen:\\nManuel"
+
+#: data/levels/Desert_World/credits.stl:126
+msgid "Testing\\nby appletree"
+msgstr "Tester:\\nappletree"
+
+#: data/levels/Desert_World/credits.stl:128
+msgid "Comments and criticism\\ngo to the upload page."
+msgstr "Kommentare und Kritik\\ngehen zur Upload-Seite."
+
+#: data/levels/Desert_World/credits.stl:131
+msgid "Unfortunately, Nolok managed to escape."
+msgstr "Leider konnte Nolok entkommen."
+
+#: data/levels/Desert_World/credits.stl:133
+msgid "So..."
+msgstr "Also..."
+
+#: data/levels/Desert_World/credits.stl:12
+msgid "See you on the next adventure!"
+msgstr "Bis zum nächsten Abenteuer!"
+
+#: data/levels/Desert_World/challenges.stl:3
+msgid "Further Challenges"
+msgstr "Weitere Herausforderungen"
+
+#: data/levels/Desert_World/challenges.stl:77
+msgid "#Did you finish the worldmap and now ask yourself what to do next?"
+msgstr "#Hast du die Weltkarte beendet und fragst dich, was du jetzt tun kannst?"
+
+#: data/levels/Desert_World/challenges.stl:82
+msgid "#Here are some suggestions for you."
+msgstr "#Hier sind ein paar Vorschläge für dich."
+
+#: data/levels/Desert_World/challenges.stl:87
+msgid "#First of all, you can solve all levels perfectly. This means, you can find every secret area and - if you want - kill all enemys and find every coin."
+msgstr "#Zuallererst kannst du alle Levels perfekt abschließen. Das heißt, du kannst jedes Versteck finden und - wenn du willst - alle Gegner besiegen und alle Münzen sammeln."
+
+#: data/levels/Desert_World/challenges.stl:92
+msgid ""
+"-Standard Challenges\n"
+"#For every level"
+msgstr "-Standard-Herausforderungen\n#Für jedes Level."
+
+#: data/levels/Desert_World/challenges.stl:98
+msgid "#Try to finish every level in the given target time. This may need some training."
+msgstr "#Versuch jedes Level in der Zielzeit zu beenden. Das könnte etwas Training brauchen."
+
+#: data/levels/Desert_World/challenges.stl:103
+msgid "#In every NORMAL level (e.g. no boss/story levels) there is a secret bonus block looking exactly like this."
+msgstr "#In jedem NORMALEN level (also keine Boss-/Geschichts-Level) befindet sich genau ein solcher geheimer Bonus-Block."
+
+#: data/levels/Desert_World/challenges.stl:108
+msgid ""
+"-Challenges for different levels\n"
+"#The more stars the more difficult. You get a star for a completed challenge and a tuxdoll when you found the secret coin box."
+msgstr "-Herausforderungen für verschiedene Level\n#Je mehr Sterne, desto schwieriger. Du bekommst einen Stern für eine gelöste Herausforderung und eine Tux-Puppe, wenn du einen geheimen Bonus-Block findest."
+
+#: data/levels/Desert_World/challenges.stl:114
+msgid ""
+"-The Hot Continent\n"
+"#Finish the level in under 0:43:00\n"
+"#***"
+msgstr "-Der heiße Kontinent\n#Beende das Level in unter 0:43:00\n#***"
+
+#: data/levels/Desert_World/challenges.stl:121
+msgid ""
+"-Southern Dunes\n"
+"#Finish the level in under 0:55:00\n"
+"#****"
+msgstr "-Südliche Dünen\n#Beende das Level in unter 0:55:00\n#****"
+
+#: data/levels/Desert_World/challenges.stl:128
+msgid ""
+"-Tumbleweed Trouble\n"
+"#Finish the level in under 0:49:00\n"
+"#*****"
+msgstr "-Ärger mit Steppenläufern\n#Beende das Level in unter 0:49:00\n#*****"
+
+#: data/levels/Desert_World/challenges.stl:135
+msgid ""
+"-Chaos Canyon\n"
+"#Collect all coins.\n"
+"#****"
+msgstr "-Schlucht des Chaos\n#Sammle alle Münzen ein\n#****"
+
+#: data/levels/Desert_World/challenges.stl:142
+msgid ""
+"-More Holes\n"
+"#Defeat all Jumpys.\n"
+"#*"
+msgstr "-Noch mehr Löcher\n#Besiege alle Jumpys\n#*"
+
+#: data/levels/Desert_World/challenges.stl:149
+msgid ""
+"-Underground Paths\n"
+"#Neither kill a badguy nor collect any coins.\n"
+"#****"
+msgstr "-Unterirdische Pfade\n#Besiege weder einen Gegner noch sammle Coins ein\n#****"
+
+#: data/levels/Desert_World/challenges.stl:156
+msgid ""
+"-Stalactite and Light\n"
+"#Don't step on any of these blocks.\n"
+"#*****"
+msgstr "-Stalaktiten im Licht\n#Betrete auf keinem dieser Blöcke\n#*****"
+
+#: data/levels/Desert_World/challenges.stl:163
+msgid ""
+"-Build Your Way\n"
+"#Kill all Armored Scarabs\n"
+"#*"
+msgstr "-Räume deinen Weg\n#Besiege alle Armored Scarabs\n#*"
+
+#: data/levels/Desert_World/challenges.stl:170
+msgid ""
+"-Unsolid Path\n"
+"#Shout in every of the 4 pipe holes with the ACTION KEY.\n"
+"#**"
+msgstr "-Loser Boden\n#Rufe in jede der 4 Röhrenlöcher mit der AKTION-Taste\n#**"
+
+#: data/levels/Desert_World/challenges.stl:177
+msgid ""
+"-A filthy Plan\n"
+"#Reach the Mummys.\n"
+"#You already did that, I guess."
+msgstr "-Ein fieser Plan\n#Erreiche die Mummys\n#Ich denke, das hast du bereits geschafft."
+
+#: data/levels/Desert_World/challenges.stl:184
+msgid ""
+"-Back to the Surface\n"
+"#Reach the double-flowered cactus.\n"
+"#*"
+msgstr "-Zurück an die Oberfläche\n#Erreiche den Kaktus mit den zwei Blüten\n#*"
+
+#: data/levels/Desert_World/challenges.stl:191
+msgid ""
+"-Cactus!\n"
+"#Finish the level in under 0:57:00\n"
+"#*****"
+msgstr "-Kakteen!\n#Beende das Level in unter 0:57:00\n#*****"
+
+#: data/levels/Desert_World/challenges.stl:198
+msgid ""
+"-The Remains of the Pyramids\n"
+"#Don't let a single coconut fall down\n"
+"#***"
+msgstr "-Die Überreste der Pyramiden\n#Lass keine einzige Kokosnuss runterfallen\n#***"
+
+#: data/levels/Desert_World/challenges.stl:205
+msgid ""
+"-Dangerous Woodblocks\n"
+"#Break all Woodcrushers\n"
+"#***"
+msgstr "-Gefahr von oben\n#Baue alle Woodcrusher ab\n#***"
+
+#: data/levels/Desert_World/challenges.stl:212
+msgid ""
+"-The Entrance\n"
+"#Don't kill any enemy outside of the pyramid.\n"
+"#*"
+msgstr "-Der Eingang\n#Besiege keinen Gegner außerhalb der Pyramide\n#*"
+
+#: data/levels/Desert_World/challenges.stl:219
+msgid ""
+"-Further Challenges\n"
+"#Finish the level without landing on the sand once.\n"
+"#*"
+msgstr "-Weitere Herausforderungen\n#Beende das Level ohne einmal auf dem Sand gelandet zu sein\n#*"
+
+#: data/levels/Desert_World/challenges.stl:226
+msgid ""
+"-Journey to the Explosives\n"
+"#Collect three Tux dolls.\n"
+"#***"
+msgstr "-Reise zu den Explosiven\n#Sammle drei Tuxpuppen\n#***"
+
+#: data/levels/Desert_World/challenges.stl:233
+msgid ""
+"-The Gate to the Goobom Village\n"
+"#Change all the signs by using the ACTION KEY.\n"
+"#*"
+msgstr "-Das Tor zum Goobom-Dorf\n#Verändere alle Schilder mit der AKTION-Taste\n#*"
+
+#: data/levels/Desert_World/challenges.stl:240
+msgid ""
+"-Hill Village\n"
+"#Reach the Tux Statue.\n"
+"#*****"
+msgstr "-Dorf in den Hügeln\n#Erreiche die Tux-Statue\n#*****"
+
+#: data/levels/Desert_World/challenges.stl:247
+msgid ""
+"-The Goobom King\n"
+"#Defeat the second boss.\n"
+"#I hope you already did."
+msgstr "-Der König der Gooboms\n#Besiege den zweiten Boss\n#Ich hoffe, du hast das bereits getan"
+
+#: data/levels/Desert_World/challenges.stl:254
+msgid ""
+"-Moist Ground\n"
+"#Don't collect any coins.\n"
+"#**"
+msgstr "-Feuchter Boden\n#Sammle keine Münzen ein\n#**"
+
+#: data/levels/Desert_World/challenges.stl:261
+msgid ""
+"-Sandfall Grotto\n"
+"#Reach the secret PENNY-Heart.\n"
+"#*"
+msgstr "-Sandfall-Grotte\n#Erreiche das versteckte PENNY-Herz\n#*"
+
+#: data/levels/Desert_World/challenges.stl:268
+msgid ""
+"-The longest River of the World\n"
+"#Jump on every Crocobite exactly three times.\n"
+"#**"
+msgstr "-Der längste Fluss der Welt\n#Springe genau dreimal auf jedes Crocobite\n#**"
+
+#: data/levels/Desert_World/challenges.stl:275
+msgid ""
+"-Garden of Secrets\n"
+"#Kill every badguy.\n"
+"#****"
+msgstr "-Garten der Geheimnisse\n#Besiege alle Gegner\n#****"
+
+#: data/levels/Desert_World/challenges.stl:282
+msgid ""
+"-House of Rooms\n"
+"#Collect everything in the invisible area.\n"
+"#*"
+msgstr "-Haus der Räume\n#Sammle alles im unsichtbaren Gebiet\n#*"
+
+#: data/levels/Desert_World/challenges.stl:289
+msgid ""
+"-The Pyramids Entrance Puzzle\n"
+"#Complete the second puzzle but only switch twice.\n"
+"#**"
+msgstr "-Die Rätsel der Pyramide\n#Beende das zweite Rätsel mit nur zwei Schalterbetätigungen\n#***"
+
+#: data/levels/Desert_World/challenges.stl:296
+msgid ""
+"-Inside the Factory\n"
+"#Collect the last eight coins.\n"
+"#**"
+msgstr "-In der Fabrik\n#Sammle die letzten acht Münzen ein\n#**"
+
+#: data/levels/Desert_World/challenges.stl:303
+msgid ""
+"-Assembly-Line Work\n"
+"#Activate all bonus areas.\n"
+"#****"
+msgstr "-Fließband-Arbeit\n#Aktiviere alle Bonus-Gebiete\n#****"
+
+#: data/levels/Desert_World/challenges.stl:310
+msgid ""
+"-Light and Lava\n"
+"#Kill all three LiveFires.\n"
+"#****"
+msgstr "-Licht und Lava\n#Besiege alle drei LiveFires\n#****"
+
+#: data/levels/Desert_World/challenges.stl:317
+msgid ""
+"-Fighting Nolok!\n"
+"#Defeat Nolok.\n"
+"#You already did if you didn't cheat..."
+msgstr "-Bekämpfe Nolok!\n#Besiege Nolok\n#Du hast das bereits getan, wenn du nicht geschummelt hast"
+
+#: data/levels/Desert_World/challenges.stl:324
+msgid "#It's no secret anymore that there are some secret levels. There are some challenges for them as well."
+msgstr "#Es ist jetzt kein Geheimnis mehr, dass es auch geheime Level gibt. Auch für sie gibt es Herausforderungen"
+
+#: data/levels/Desert_World/challenges.stl:329
+msgid ""
+"-The Drill\n"
+"#Kill all enemies and collect your price.\n"
+"#*****"
+msgstr "-Die Drillhöhle kehrt zurück\n#Besiege alle Gegner und sammel deinen Preis ein\n#*****"
+
+#: data/levels/Desert_World/challenges.stl:336
+msgid ""
+"-The Secret Bonus Room\n"
+"#Finish the level without jumping.\n"
+"#*"
+msgstr "-Der geheime Bonusraum\n#Beende das Level ohne zu springen\n#*"
+
+#: data/levels/Desert_World/challenges.stl:343
+msgid ""
+"-Flameburned\n"
+"#Finish all difficult challenges.\n"
+"#****"
+msgstr "-Flammenverbrannt\n#Beende die schwierigen Aufgaben\n#****"
+
+#: data/levels/Desert_World/challenges.stl:350
+msgid ""
+"-Escape!\n"
+"#Jump three times in a row into the first lava pond.\n"
+"#*"
+msgstr "-Fliehe!\n#Falle dreimal hintereinander in den ersten Lava-See\n#*"
+
+#: data/levels/Desert_World/challenges.stl:357
+msgid ""
+"-Press ACTION at the InfoBlock\n"
+"#Finish the supersecret level.\n"
+"#***"
+msgstr "-Drücke AKTION am Infoblock\n#Beende das supergeheime Level\n#***"
+
+#: data/levels/Desert_World/fireflower.stl:3
+msgid "Flameburned"
+msgstr "Flammenverbrannt"
+
+#: data/levels/Desert_World/fireflower.stl:490
+msgid ""
+"#Shoot at the haybales.\n"
+"!images/powerups/fireflower/fire_flower-0.png\n"
+"#You'll need the camera keys (WASD) in later levels."
+msgstr "#Schieße auf die Heuballen.\n!images/powerups/fireflower/fire_flower-0.png\nDu wirst die Kamera-Tasten (WASD) in späteren Leveln brauchen"
+
+#: data/levels/Desert_World/fireflower.stl:
+msgid "#Press the button for more challenging tasks."
+msgstr "#Drücke den Knopf für schwierigere Aufgaben."
+
+#: data/levels/Desert_World/fireflower.stl:
+msgid "#When you want to give up just press any of these buttons."
+msgstr "#Wenn du aufgeben möchtest, drücke einfach einen dieser Knöpfe."
+
+#: data/levels/Desert_World/drillcaves.stl:3
+msgid "The Drill"
+msgstr "Die Drillhöhle kehrt zurück!"
+
+#: data/levels/Desert_World/drillcaves.stl:34
+msgid "#Kill all enemies to proceed."
+msgstr "#Besiege alle Gegner zum Weiterkommen"
+
+#: data/levels/Desert_World/littlebonus.stl:3
+msgid "The Secret Bonus Room"
+msgstr "Der Geheime Bonusraum"
+
+#: data/levels/Desert_World/bonuslevel.stl:3
+msgid "Press ACTION at the InfoBlock"
+msgstr "Drücke AKTION am Infoblock"
+
+#: data/levels/Desert_World/bonuslevel.stl:10
+msgid "For your own safety:\nQuit the level only at the snow part."
+msgstr "Für Ihre eigene Sicherheit:\nBeenden Sie das Level nur im Schneebereich."
+
+#: data/levels/Desert_World/bonuslevel.stl:29
+msgid "Now find the Paper Boat"
+msgstr "Finde nun das Papierboot"
+
+#: data/levels/Desert_World/bonuslevel.stl:47
+msgid "Now find the Coconut"
+msgstr "Finde nun die Kokusnuss"
+
+#: data/levels/Desert_World/bonuslevel.stl:58
+msgid "Now find the Fez"
+msgstr "Finde nun den Fez"
+
+#: data/levels/Desert_World/bonuslevel.stl:69
+msgid "Now find the Zeekling"
+msgstr "Finde nun den Zeekling"
+
+#: data/levels/Desert_World/bonuslevel.stl:80
+msgid "Now find the Coin"
+msgstr "Finde nun die Münze"
+
+#: data/levels/Desert_World/bonuslevel.stl:91
+msgid "Now find the Air Hat"
+msgstr "Finde nun den Luft-Helm"
+
+#: data/levels/Desert_World/bonuslevel.stl:102
+msgid "Now press the button"
+msgstr "Drücke nun den Schalter"
+
+#: data/levels/Desert_World/worldmap.stwm:3
+msgid "Waffles Desert"
+msgstr "Waffelwüste"
