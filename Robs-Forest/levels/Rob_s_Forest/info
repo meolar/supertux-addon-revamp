@@ -1,0 +1,6 @@
+(supertux-level-subset
+  (title (_ "Rob's Forest"))
+  (description (_ "My custom forest worldmap!"))
+  (levelset #f)
+  (hide-from-contribs #f)
+)
