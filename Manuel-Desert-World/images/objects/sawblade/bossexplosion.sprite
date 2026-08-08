@@ -1,0 +1,11 @@
+(supertux-sprite
+ (action
+  (name "default")
+  (hitbox 0 0 320 320)
+  (fps 1)
+  (images 
+   "bossexplosion.png"
+  )
+ )
+)
+

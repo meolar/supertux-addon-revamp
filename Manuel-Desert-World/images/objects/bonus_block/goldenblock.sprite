@@ -1,0 +1,26 @@
+(supertux-sprite
+      (action
+         (fps 15)
+         (name "normal")
+         (images "golden0.png"
+                 "golden1.png"
+                 "golden2.png"
+                 "golden3.png"
+                 "golden4.png"
+                 "golden3.png"
+                 "golden2.png"
+                 "golden1.png"
+                 "golden0.png"
+                 "golden0.png"
+                 "golden0.png"
+                 ))
+      (action
+         (name "empty")
+         (images "golden_empty.png"))
+      (action
+         (name "on")
+         (images "on.png"))
+      (action
+         (name "off")
+         (images "off.png"))
+)

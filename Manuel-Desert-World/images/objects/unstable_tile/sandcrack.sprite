@@ -1,0 +1,49 @@
+(supertux-sprite
+  (action
+    (name "normal")
+    (images 
+      "sandcrack0.png"
+    )
+  )
+  (action
+    (name "shake")
+    (fps 8)
+    (images 
+      "sandcrack0.png"
+      "sandcrack1.png"
+      "sandcrack2.png"
+      "sandcrack3.png"
+      "sandcrack4.png"
+      "sandcrack5.png"
+      "sandcrack6.png"
+    )
+  )
+  (action
+    (name "fall-down")
+    (fps 1)
+    (images 
+      "sandcrack6.png"
+    )
+  )
+  (action
+    (name "burning")
+    (images
+      "sandcrack0.png"
+      "sandcrack1.png"
+      "sandcrack2.png"
+      "sandcrack7.png"
+      "sandcrack8.png"
+      "sandcrack9.png"
+      "sandcrack10.png"
+    )
+  )
+  (action
+    (name "disintegrating")
+    (images
+      "sandcrack11.png"
+      "sandcrack12.png"
+      "sandcrack13.png"
+      "sandcrack14.png"
+    )
+  )
+)

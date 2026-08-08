@@ -1,0 +1,20 @@
+(supertux-sprite
+ (action
+  (name "default")
+  (hitbox 0 0 48 24)
+  (fps 20)
+  (images 
+   "hammer0.png"
+   "hammer1.png"
+   "hammer2.png"
+   "hammer3.png"
+   "hammer4.png"
+   "hammer4.png"
+   "hammer3.png"
+   "hammer2.png"
+   "hammer1.png"
+   "hammer0.png"
+  )
+ )
+)
+

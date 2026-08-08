@@ -1,0 +1,12 @@
+(supertux-sprite
+ (action
+  (name "default")
+  (hitbox 0 0 37 45)
+  (fps 10)
+  (images 
+   "antlion0.png"
+   "antlion1.png"
+  )
+ )
+)
+

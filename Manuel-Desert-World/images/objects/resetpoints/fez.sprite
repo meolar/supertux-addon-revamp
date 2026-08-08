@@ -1,0 +1,22 @@
+(supertux-sprite
+ (action
+  (name "normal")
+  (x-offset 0)
+  (y-offset 0)
+  (images "fez0.png")
+ )
+ (action
+  (fps 8)
+  (name "ringing")
+  (images
+   "fez0.png"
+   "fez1.png"
+   "fez2.png"
+   "fez1.png"
+   "fez0.png"
+   "fez3.png"
+   "fez4.png"
+   "fez3.png"
+  )
+ )              
+)

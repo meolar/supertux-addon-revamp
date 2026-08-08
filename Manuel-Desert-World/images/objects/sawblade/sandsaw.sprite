@@ -1,0 +1,18 @@
+(supertux-sprite
+ (action
+  (name "default")
+  (hitbox 0 0 32 32)
+  (fps 200)
+  (images 
+   "sandsaw0.png"
+   "sandsaw0a.png"
+   "sandsaw1.png"
+   "sandsaw1a.png"
+   "sandsaw2.png"
+   "sandsaw2a.png"
+   "sandsaw3.png"
+   "sandsaw3a.png"
+  )
+ )
+)
+

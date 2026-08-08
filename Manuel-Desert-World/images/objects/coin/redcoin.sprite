@@ -1,0 +1,21 @@
+(supertux-sprite
+      (action 
+          (name "normal")
+          (images "redcoin0.png"
+                  "redcoin1.png"
+                  "redcoin2.png"
+                  "redcoin3.png"
+                  "redcoin4.png"
+                  "redcoin5.png"
+                  "redcoin6.png"
+                  "redcoin7.png"))
+      (action
+          (name "still")
+          (images "redcoin0.png"))
+      (action
+          (name "editor-path")
+          (images "path_coin.png"))
+      (action
+          (name "editor-heavy")
+          (images "heavy_coin.png"))
+)

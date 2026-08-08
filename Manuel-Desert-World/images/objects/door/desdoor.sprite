@@ -1,0 +1,44 @@
+(supertux-sprite
+  (action
+    (name "closed")
+    (hitbox 0 0 0 0)
+    (images 
+      "desdoor0.png"
+    )
+  )
+  (action
+    (name "opening")
+    (hitbox 0 0 0 0)
+    (images 
+      "desdoor0.png"
+      "desdoor1.png"
+      "desdoor2.png"
+      "desdoor3.png"
+      "desdoor4.png"
+      "desdoor5.png"
+      "desdoor6.png"
+      "desdoor7.png"
+    )
+  )
+  (action
+    (name "open")
+    (hitbox 0 0 0 0)
+    (images 
+      "desdoor7.png"
+    )
+  )
+  (action
+    (name "closing")
+    (hitbox 0 0 0 0)
+    (images 
+      "desdoor7.png"
+      "desdoor6.png"
+      "desdoor5.png"
+      "desdoor4.png"
+      "desdoor3.png"
+      "desdoor2.png"
+      "desdoor1.png"
+      "desdoor0.png"
+    )
+  )
+)
