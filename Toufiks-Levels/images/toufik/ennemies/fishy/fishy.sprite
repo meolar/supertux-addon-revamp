@@ -1,0 +1,11 @@
+(supertux-sprite
+ (action
+  (name "stand-left")
+  (images "fishy.png")
+ )
+
+ (action
+  (name "stand-right")
+  (mirror-action "stand-left")
+ )
+)

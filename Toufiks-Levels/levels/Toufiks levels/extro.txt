@@ -1,0 +1,35 @@
+(supertux-text
+  (background "oiltux.jpg")
+  (music "music/misc/credits.ogg")
+  (speed 30)
+
+  (text (_ "!images/toufik/logo.png
+
+-by Toufik
+!images/toufik/toufik.jpg
+
+
+	Congratulations!
+	You done it!
+
+
+-To support the author :
+
+ Facebook :
+*Toufik Graichi
+
+ E-mail:
+*g.toufik.ccm@gmail.com
+
+
+	Thanks for
+	playing
+
+-Toufik's Levels 6
+
+
+
+	Penny awaits you in the Final version of Toufik's Levels!
+")
+)
+)

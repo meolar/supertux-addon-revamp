@@ -1,0 +1,17 @@
+(supertux-sprite
+ (action
+  (name "stand-left")
+  (images "gloobyking.gif"
+          "gloobyking2.gif"
+          "gloobyking3.gif"
+          "gloobyking4.gif"
+          "gloobyking5.gif"
+          "gloobyking6.gif"
+          "gloobyking7.gif"
+          "gloobyking8.gif"))
+
+ (action
+  (name "stand-right")
+  (mirror-action "stand-left")
+ )
+)

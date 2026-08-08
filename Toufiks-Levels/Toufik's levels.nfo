@@ -1,0 +1,8 @@
+(supertux-addoninfo
+      (id "toufik-levels")
+      (version 6)
+      (type "worldmap")
+      (title "Toufik's Levels")
+      (author "Toufik")
+      (license "GPL 2+ / CC-by-sa 3.0")
+    )

@@ -1,0 +1,20 @@
+(supertux-sprite
+  (action
+    (name "left")
+    (images "cpt-left-0.png"
+            "cpt-left-1.png")
+  )
+  (action
+    (name "right")
+    (images "cpt-right-0.png"
+            "cpt-right-1.png")
+  )
+  (action
+    (name "squished-left")
+    (images "cpt-squished-left.png")
+  )
+  (action
+    (name "squished-right")
+    (images "cpt-squished-right.png")
+  )
+)

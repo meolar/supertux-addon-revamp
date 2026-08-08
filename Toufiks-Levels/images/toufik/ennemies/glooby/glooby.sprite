@@ -1,0 +1,12 @@
+(supertux-sprite
+ (action
+  (name "stand-left")
+  (images "glooby.png"
+          "glooby2.png"
+          "glooby3.png"))
+
+ (action
+  (name "stand-right")
+  (mirror-action "stand-left")
+ )
+)

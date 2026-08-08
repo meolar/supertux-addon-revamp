@@ -1,0 +1,8 @@
+(supertux-world
+ (title (_ "Toufik's Levels"))
+ (description "A worldmap that makes you happy.")
+ (hide-from-contribs #f)
+ (contrib-type "community")
+ (levelset #f)
+)
+
