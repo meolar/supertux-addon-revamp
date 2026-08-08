@@ -1,0 +1,54 @@
+(supertux-text
+  (background "nightsky/nightsky_middle.png")
+  (music "music/jingle.ogg")
+  (text
+"-After a while, Tux escaped the castle...
+	But to his dismay there was no treasure.
+	Someone had already come for it,
+	or there never was treasure to begin with.
+ 
+	That's to be expected from that cheating,
+	lying Nolok, who told Tux about this place.
+ 
+	But as he set a course back home, Tux realized
+	that the real treasure was, in fact, the journey
+	and enrichment gained from travelling
+	across this island.
+
+	You've been playing
+ 
+-TREASURE MOUNTAIN
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+-Addon designed by
+	Daniel W. (aka WeLuvGoatz)
+ 
+-Extra Art by
+	RustyBox (Worldmap, Forest Tiles)
+	BlasterMaster (Tree Stumps)
+	Alzter (Tree Stumps)
+ 
+-Extra Music Tracks by
+	Jomar Johansen (Intro/Outro Song)
+ Note: I do not know if Jomar Johansen is the true owner of this song, I just know they used it in their SuperTux mod. Miksy91 used this song in their add-on, ATTNW, but from Jomar Johansen's mod. This song is also remixed from Dire, Dire Docks (Super Mario 64), which was created and is owned by Koji Kondo (the composer) and Nintendo (the company). All rights to this song belong to all of these people.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+-Thank you so much for playing!
+-Leave your thoughts on this add-on at:
+-forum.freegamedev.net")
+)
