@@ -1,0 +1,7 @@
+;SuperTux-Level-Subset
+(supertux-level-subset
+  (title (_ "CT's Domain"))
+  (description "Levels from the ctdabomb")
+  (contrib-type "community")
+  (levelset #f)
+)
